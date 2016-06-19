@@ -1,0 +1,25 @@
+{
+  "name": "silesia",
+  "description": "Silesia Dental Wordpress Theme.",
+  "version": "",
+  "homepage": "http://silesiadental.com",
+  "authors": [
+    {
+      "name": "Saddam Azad",
+      "email": "saddam.azad@me.com"
+    }
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor"
+  ],
+  "dependencies": {
+    "bootstrap"     : "4.0.0-alpha",
+    "font-awesome"  : "4.5.0",
+    "include-media" : "1.4.4"
+  },
+  "devDependencies": {}
+}

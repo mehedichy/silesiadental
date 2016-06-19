@@ -1,0 +1,383 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding: "
+			],
+			[
+				"text",
+				"text-transform: "
+			],
+			[
+				"margi",
+				"margin: "
+			],
+			[
+				"padd",
+				"padding: "
+			],
+			[
+				"marg",
+				"margin-left: "
+			],
+			[
+				"mar",
+				"margin-bottom: "
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"pad",
+				"padding: "
+			],
+			[
+				"margin",
+				"margin-right: "
+			],
+			[
+				"wod",
+				"word-wrap: "
+			],
+			[
+				"paddin",
+				"padding-bottom: "
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Pac",
+		"selected_items":
+		[
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			" import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com"
+	],
+	"file_history":
+	[
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/.env.example",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/.env",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/assets/src/scss/layout/_header.scss",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/assets/src/scss/layout/_body.scss",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/resources/views/layouts/footer.blade.php",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/resources/views/layouts/topbar.blade.php",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/resources/views/layouts/sidebar.blade.php",
+		"/C/Users/sazad/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/resources/views/layouts/master.blade.php",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/template/home.html",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/assets/src/scss/style.scss",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/assets/src/scss/components/_adec_login.scss",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/resources/views/index.blade.php",
+		"/C/Users/sazad/AppData/Local/Temp/Temp1_new admin.zip/new admin/new admin/layout_blank_page.html",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/assets/src/js/angular/routes/routes.js",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/resources/views/adec/dashboard.blade.php",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/Gruntfile.js",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/assets/src/js/app.js",
+		"/C/Users/sazad/Box Sync/Techtonix/RESOURCES/Metronic v4.5.5/theme/admin_1/page_user_login_1.html",
+		"/C/Users/sazad/Box Sync/Techtonix/RESOURCES/Metronic v4.5.5/theme/admin_1_angularjs/views/dashboard.html",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/assets/src/js/dashboard.js",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/assets/src/js/login.js",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/assets/src/js/demo.js",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/template/adec_login.html",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/bower.json",
+		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/config/app.php",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/assets/src/js/app.js",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/assets/src/scss/base/_default.scss",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/bower.json",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/index.html",
+		"/C/Users/sazad/Box Sync/RAVEN Digital/CLIENTS/Browning Moving & Logistics/Design/Deprecated/Scheme 2.html",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/assets/src/scss/style.scss",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/assets/src/scss/helpers/_mixins.scss",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/assets/src/scss/helpers/_variables.scss",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/Gruntfile.js",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/assets/src/scss/base/_typography.scss",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/assets/src/scss/layout/_body.scss",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/assets/src/scss/components/_content.scss",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/assets/src/scss/.csscomb.json",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/assets/src/scss/.scss-lint.yml",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/assets/src/scss/_shame.scss",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/package.json",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/.bowerrc",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/.gitignore",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/.npmigore",
+		"/C/Users/sazad/Documents/MEGA/html/kothayre.com/,jshintrc",
+		"/C/Users/sazad/Documents/MEGA/html/techtonix.co/README",
+		"/C/Users/sazad/Box Sync/Techtonix/RESOURCES/Metronic v4.5.5/theme/admin_1/app_calendar.html",
+		"/C/Users/sazad/Documents/MEGA/html/access.pem",
+		"/C/Users/sazad/Documents/MEGA/html/id_rsa.pem",
+		"/C/Users/sazad/Documents/MEGA/html/certificate.pem",
+		"/C/Users/sazad/Documents/MEGA/html/key.pem",
+		"/C/Users/sazad/Documents/MEGA/html/new file",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/scss/layout/_divi.scss",
+		"/C/Users/sazad/Documents/MEGA/html/page.html",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/footer.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/scss/layout/_widgets.scss",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/scss/layout/_main.scss",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/scss/layout/_footer.scss",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/Gruntfile.js",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/.jshintrc",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/sidebar-footer.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/README",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/sidebar-footer.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/sidebar.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/footer.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-config.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/php.ini",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/page-new.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/.htaccess",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/phpinfo.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions/divi-module-scroll-down.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/scss/layout/_header.scss",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/js/app.js",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/includes/builder/main-modules.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions/divi-module-scroll-down-fullscreen.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/package.json",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/custom-modules.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions--.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions/wp-widgets.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/scss/base/_typography.scss",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/bower.json",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/.bowerrc",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions/script-enqueue.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/scss/style.scss",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/style.css",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/.gitignore",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions/wp-theme.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions/wp-post-types.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/includes/functions/sanitization.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/includes/builder/layouts.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/single-project.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/style.css",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/includes/builder/functions.php",
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/includes/builder/framework.php",
+		"/C/Users/sazad/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/sazad/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/Users/sazad/Downloads/php.ini",
+		"/C/Users/sazad/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/Users/sazad/AppData/Local/Temp/fz3temp-1/gd-config.php",
+		"/C/Users/sazad/Mega/html/pack2go.ae/wp-config.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\blackboard.com",
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\blackboard.com\\public",
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\snfgroup.com\\README",
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\snfgroup.com\\wp-content\\themes\\Divi",
+			"",
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\snfgroup.com\\wp-content\\themes\\SNF\\assets\\src\\scss",
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\snfgroup.com\\wp-content\\themes\\SNF\\assets",
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\snfgroup.com\\wp-content\\themes\\SNF\\assets\\src\\scss",
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\snfgroup.com\\wp-content\\themes\\SNF",
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\snfgroup.com\\wp-content\\themes\\SNF\\functions"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"menu-link main-menu-link",
+			"bootstrap",
+			"<div class=\"page-header navbar navbar-fixed-top\">",
+			"SchoolController.js",
+			"controllers/SchoolController.js",
+			"jshint",
+			"login",
+			"uglify",
+			"routes",
+			"app.js",
+			"form",
+			"result",
+			"http://dev.snfgroup.com",
+			"http://",
+			"snfgroup.techtonix.com",
+			"www.newurl",
+			"www.oldurl",
+			"slug",
+			"et_pb_scroll_down",
+			"et_pb_scroll_button",
+			"scroll_down_icon_color",
+			"shortcode",
+			"$class",
+			"fullscreen",
+			"background_layout",
+			"$class",
+			"header_image",
+			"class ET",
+			"Class",
+			"class",
+			"header",
+			"fullwidth",
+			".active",
+			"a.active",
+			".et-social-icons",
+			" .et-social-icons",
+			"sticky-sidebar",
+			"divi-style-css",
+			"style.css",
+			"image",
+			"image_sizes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"nav-link",
+			"http://snfgroup.techtonix.com",
+			"",
+			"snfgroup.techtonix.co",
+			"snfgroup.techtonix.com",
+			"dev.snfgroup.com",
+			"et_pb_scroll_down_fullscreen"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Silesia.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
