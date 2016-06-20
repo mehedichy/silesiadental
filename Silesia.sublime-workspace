@@ -51,6 +51,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "wp-content/themes/silesiadental/assets/src/scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 838,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-config.php",
+			"settings":
+			{
+				"buffer_size": 2985,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n/**\n * The base configuration for WordPress\n *\n * The wp-config.php creation script uses this file during the\n * installation. You don't have to use the web site, you can\n * copy this file to \"wp-config.php\" and fill in the values.\n *\n * This file contains the following configurations:\n *\n * * MySQL settings\n * * Secret keys\n * * Database table prefix\n * * ABSPATH\n *\n * @link https://codex.wordpress.org/Editing_wp-config.php\n *\n * @package WordPress\n */\n\n// ** MySQL settings - You can get this info from your web host ** //\n/** The name of the database for WordPress */\ndefine('DB_NAME', 'database_name_here');\n\n/** MySQL database username */\ndefine('DB_USER', 'username_here');\n\n/** MySQL database password */\ndefine('DB_PASSWORD', 'password_here');\n\n/** MySQL hostname */\ndefine('DB_HOST', 'localhost');\n\n/** Database Charset to use in creating database tables. */\ndefine('DB_CHARSET', 'utf8');\n\n/** The Database Collate type. Don't change this if in doubt. */\ndefine('DB_COLLATE', '');\n\n/**#@+\n * Authentication Unique Keys and Salts.\n *\n * Change these to different unique phrases!\n * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}\n * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.\n *\n * @since 2.6.0\n */\ndefine('AUTH_KEY',         'put your unique phrase here');\ndefine('SECURE_AUTH_KEY',  'put your unique phrase here');\ndefine('LOGGED_IN_KEY',    'put your unique phrase here');\ndefine('NONCE_KEY',        'put your unique phrase here');\ndefine('AUTH_SALT',        'put your unique phrase here');\ndefine('SECURE_AUTH_SALT', 'put your unique phrase here');\ndefine('LOGGED_IN_SALT',   'put your unique phrase here');\ndefine('NONCE_SALT',       'put your unique phrase here');\n\n/**#@-*/\n\n/**\n * WordPress Database Table prefix.\n *\n * You can have multiple installations in one database if you give each\n * a unique prefix. Only numbers, letters, and underscores please!\n */\n$table_prefix  = 'wp_';\n\n/**\n * For developers: WordPress debugging mode.\n *\n * Change this to true to enable the display of notices during development.\n * It is strongly recommended that plugin and theme developers use WP_DEBUG\n * in their development environments.\n *\n * For information on other constants that can be used for debugging,\n * visit the Codex.\n *\n * @link https://codex.wordpress.org/Debugging_in_WordPress\n */\ndefine('WP_DEBUG', false);\n\n/* That's all, stop editing! Happy blogging. */\n\n/** Absolute path to the WordPress directory. */\nif ( !defined('ABSPATH') )\n	define('ABSPATH', dirname(__FILE__) . '/');\n\n/** Sets up WordPress vars and included files. */\nrequire_once(ABSPATH . 'wp-settings.php');\n",
+			"file": "wp-config-sample.php",
+			"file_size": 2853,
+			"file_write_time": 130947335060000000,
+			"settings":
+			{
+				"buffer_size": 2764,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/silesiadental/functions.php",
+			"settings":
+			{
+				"buffer_size": 713,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -98,18 +133,14 @@
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/dist",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/dist/js",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src/js",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src/js/libraries",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src/scss",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/vendor"
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental/assets",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental/assets/src/scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental/functions"
 	],
 	"file_history":
 	[
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental/functions/wp-post-types.php",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src/js/app.js",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/package.json",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/Gruntfile.js",
@@ -314,8 +345,121 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "wp-content/themes/silesiadental/assets/src/scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2985,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								923,
+								923
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-config-sample.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								754,
+								754
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "wp-content/themes/silesiadental/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
