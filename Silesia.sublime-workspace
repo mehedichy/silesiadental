@@ -95,10 +95,28 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com"
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/dist",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/dist/js",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src/js",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src/js/libraries",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src/scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/vendor"
 	],
 	"file_history":
 	[
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src/js/app.js",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/package.json",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/Gruntfile.js",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src/scss/style.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/bower.json",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src/js/libraries/megabar.js",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/.bowerrc",
 		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/.env.example",
 		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/.env",
 		"/C/Users/sazad/Documents/MEGA/html/blackboard.com/public/assets/src/scss/layout/_header.scss",
@@ -204,7 +222,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -228,6 +246,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"usebanner",
+			"sass",
+			"sasss",
 			"menu-link main-menu-link",
 			"bootstrap",
 			"<div class=\"page-header navbar navbar-fixed-top\">",

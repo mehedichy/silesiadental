@@ -17,7 +17,7 @@ module.exports = function (grunt) {
 			js: 'assets/src/js'
 		},
 		dist: {
-			css: './',
+			css: '.',
 			js: 'assets/dist/js'
 		}
 	};
@@ -64,37 +64,16 @@ module.exports = function (grunt) {
 
 		/*
 		 * Sassy!
-		 *
-		sass: {
-			dev: {
-				options: {
-					style: 'expanded',
-					sourcemap: '<%= config.dist.css %>/*.css.map'
-				}
-			},
-			dist: {
-				options: {
-					style: 'compressed',
-					sourcemap: '<%= config.dist.css %>/*.css.map'
-				}
-			},
-
-			files: {
-				// 'destination': 'source'
-				'<%= config.dist.css %>/style.css': '<%= config.src.sass %>/style.scss',
-				'<%= config.dist.css %>/editor-style.css': '<%= config.src.sass %>/editor-style.scss',
-			}
-		},
-		/**/
-
+		 */
 		sass: {
 			options: {
 				sourceMap: true
 			},
-			files: {
-				// 'main.css': 'main.scss'
-				'<%= config.dist.css %>/style.css': '<%= config.src.sass %>/style.scss',
-				'<%= config.dist.css %>/editor-style.css': '<%= config.src.sass %>/editor-style.scss'
+			dist: {
+				files: {
+					'<%= config.dist.css %>/style.css': '<%= config.src.sass %>/style.scss',
+					'<%= config.dist.css %>/editor-style.css': '<%= config.src.sass %>/editor-style.scss'
+				}
 			}
 		},
 
@@ -186,11 +165,10 @@ module.exports = function (grunt) {
 			},
 			all: [
 				'Gruntfile.js',
-				'<%= config.src.js %>/app.js'
+				'<%= config.src.js %>/**/*.js'
 			]
 		},
 
-		/*
 		// Concatenate
 		concat: {
 			options: {
@@ -198,7 +176,7 @@ module.exports = function (grunt) {
 			},
 			app: {
 				src: [
-					'<%= config.src.js %>/*.js'
+					'<%= config.src.js %>/libraries/*.js'
 				],
 				dest: '<%= config.dist.js %>/<%= pkg.name %>.js'
 			}
@@ -216,7 +194,6 @@ module.exports = function (grunt) {
 				}
 			}
 		},
-		*/
 		
 
 		// Uglify
@@ -234,7 +211,6 @@ module.exports = function (grunt) {
 				}
 			}
 		},
-
 
 		/*
 		 *  The nightswatch
@@ -255,7 +231,8 @@ module.exports = function (grunt) {
 					spawn: false,
 				},
 				files: [
-					'<%= jshint.all %>'
+					// '<%= jshint.all %>'
+					'<%= config.src.js %>/**/*.js'
 				],
 				tasks: ['dev-js']
 			}
@@ -274,7 +251,6 @@ module.exports = function (grunt) {
 			'newer:autoprefixer', 
 			'newer:csscomb', 
 			'newer:cssmin'
-			// 'usebanner'
 		]
 	);
 
@@ -285,15 +261,14 @@ module.exports = function (grunt) {
 			'autoprefixer', 
 			'csscomb', 
 			'cssmin'
-			// 'usebanner'
 		]
 	);
 
 	grunt.registerTask('dev-js',
 		[
 			'newer:jshint', 
-			// 'concat', 
-			// 'lineremover',
+			'concat', 
+			'lineremover',
 			'uglify:dist'
 		]
 	);
@@ -301,8 +276,8 @@ module.exports = function (grunt) {
 	grunt.registerTask('dist-js',
 		[
 			'jshint', 
-			// 'concat', 
-			// 'lineremover', 
+			'concat', 
+			'lineremover', 
 			'uglify:dist'
 		]
 	);

@@ -22,7 +22,7 @@ class wp_postTypes {
     //     'has_archive' => true,
     //     'rewrite' => array('slug' => 'work'),
     //   )
-    );
+    // );
   }
 
 }
