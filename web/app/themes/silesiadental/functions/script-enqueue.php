@@ -66,6 +66,11 @@ class script_enqueue {
 
 		// wp_enqueue_style( 'theme', get_stylesheet_uri() );
 
+		wp_enqueue_style(
+			'main-css',
+			get_stylesheet_directory_uri() . '/style.css'
+		);
+
 	}
 
 	/*

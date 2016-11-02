@@ -3,6 +3,15 @@
  * Universal colours for links, unless overriden
  *
  */
+@font-face {
+  font-family: 'adam-pro';
+  src: url('assets/vendor/font/ADAM-PRO.otf') format('opentype');
+}
+@font-face {
+  font-family: 'aileron';
+  src: url('assets/vendor/font/Aileron-Regular.otf') format('opentype');
+}
+
 a:link,
 a:visited {
 	position: relative;

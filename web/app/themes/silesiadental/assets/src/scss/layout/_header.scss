@@ -1,0 +1,215 @@
+header {
+  .banner {
+    height: 144px;
+    background-color: rgb(255,254,254);
+
+    .logo-img {
+      float: left;
+      margin-top: 30px;
+      margin-left: 1em;
+    }
+    ul {
+      list-style: none;
+      margin-right: 21px;
+      margin-top: 30px;
+    
+      li {
+        display: inline-block;
+        float: right;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        
+        img {
+        	margin-left: 8px;
+        }
+        
+        &:first-child {
+          padding-right: 0;
+        }
+        &:last-child {
+        	padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+
+/* ========================================== */
+/* ----------------- Navbar -------------------
+/* =========================================== */
+.fa-check {
+  &:before {
+    margin-left: -25px;
+    padding-right: 10px;
+  }
+}
+
+nav.navbar {
+  ul.navbar-nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+    position: relative;
+
+    & > li {
+      display: table-cell;
+      text-align: center;
+      float: none;
+      padding-bottom: 0;
+      @include make-col(0);
+      @include make-col-span(2);
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0 !important;
+      position: static;
+    }
+
+    & > li {
+      & > a {
+        @include heading-font;
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 26px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+      }
+
+      &:nth-child(1) > a {
+        background: #00ADEF;
+      }
+      &:nth-child(2) > a {
+        background: #179CD3;
+      }
+      &:nth-child(3) > a {
+        background: #0086B9;
+      }
+      &:nth-child(4) > a {
+        background: #0079A6;
+      }
+      &:nth-child(5) > a {
+        background: #01729C;
+      }
+      &:last-child > a {
+        background: #00688D;
+      }
+    }
+  }
+}
+
+ul.dropdown-menu {
+  margin: 0;
+  max-width: auto;
+  //padding: 0;
+  padding: 30px 0 30px 30px;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border: none;
+  width: 100%;
+  display: inline-table;
+  background: #009bd5;
+
+  li > ul > li {
+    color: #fff;
+    padding-top: 14px;
+    padding-bottom: 0;
+    a {
+      color: #fff;
+      font-size: 13px;
+      line-height: 1;
+      
+    }
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+
+  .no-square {
+    list-style: none;
+    a {
+      font-size: 14px;
+      line-height: 1;
+    }
+  }
+}
+.navbar-toggler {
+  margin-top: 0;
+}
+@media only screen and (max-width:1024px){
+  .body-container{
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .hidden-sm-up {
+    display: inline !important;
+  }
+  nav.navbar {
+    ul.navbar-nav {
+    & > li {
+      display: block;
+      text-align: center;
+      float: none;
+      padding-bottom: 0;
+      width: 100%;
+      padding-left: 0;
+      margin-left: 0 !important;
+      position: inherit;
+    }
+      
+  }
+  nav.navbar ul.navbar-nav > li a {
+    padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 18px; 
+      color: #fff;
+      text-transform: uppercase;
+  }
+
+  ul.dropdown-menu {
+    position: inherit;
+  }
+  
+  .navbar-nav .nav-item + .nav-item {
+    margin-left: 0;
+  }
+  .megamenu {
+    margin-right: 0; 
+    margin-left: 0;
+    position: absolute;
+  }
+  .megamenu li {
+    margin-bottom: 30px;
+  }
+  .megamenu li:last-child {
+    margin-bottom: 0;
+  }
+  .pre-footer{
+    padding: 20px !important;
+  }
+  .pre-footer .second-div-links{
+    padding: 20px !important;
+  }
+  .pre-footer .logo-div{
+    padding: 20px !important;
+  }
+  .form-submit {
+    clear: both;
+    float: none !important;
+    text-align: center;
+    display: block;
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+
+  .carousel-inner {
+  img {
+    width: 100%;
+    }
+  }
+}
+}

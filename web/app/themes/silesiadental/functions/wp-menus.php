@@ -17,7 +17,7 @@ class wp_menus {
 	function register_menus() {
 	  register_nav_menus(
 	  	array(
-	  		'primary-menu' => __( 'Blog Menu' )
+	  		'primary-menu' => __( 'Primary Menu' )
 	  		// 'secondary-menu' => __( 'Secondary Menu' ),
 	  		// 'social-menu' => __( 'Social Menu' )
 	  	)
