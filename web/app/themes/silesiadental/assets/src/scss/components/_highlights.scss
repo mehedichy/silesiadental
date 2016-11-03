@@ -1,0 +1,53 @@
+.highlight {
+  background: rgb(245,245,245);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+
+  h1 {
+    font-size: 36px;
+    color: #372F2B;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 45px;
+    margin-bottom: 0;
+    border-bottom-width: 0;
+  }
+
+  p {
+    font-size: 18px;
+    color: #404040;
+    text-align: center;
+    padding-bottom: 36px;
+  }
+
+  a {
+    color: #91a3b3;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
+  .btn-highlights {
+    font-family: adam-pro;
+    border-radius: 32px;
+    color: #91a3b3;
+    font-size: 14px;
+    background: transparent;
+    padding: 15px 31px 15px 40px;
+    border: solid #91a3b3 3px;
+    text-decoration: none;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    &:hover {
+      background: #fff;
+      transition: all .5s ease-in-out;
+      @include btn-shadow;
+    }
+  }
+}

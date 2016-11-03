@@ -10,12 +10,76 @@
  */
 
 ?>
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<div class="pre-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <a href="#">Cosmetic Dentistry</a>
+                            <hr>
+                        </li>
+                        <li>
+                            <a href="#">General Dentistry</a>
+                            <hr>
+                        </li>
+                        <li>
+                            <a href="#">Orthodontics</a>
+                            <hr>
+                        </li>
+                        <li>
+                            <a href="#">Pediatric</a>
+                            <hr>
+                        </li>
+                        <li>
+                            <a href="#">Implants</a>
+                            <hr>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 second-div-links">
+                    <ul>
+                        <li>
+                            <a href="#">preventative</a>
+                            <hr>
+                        </li>
+                        <li>
+                            <a href="#">prosthodontics/ restorate</a>
+                            <hr>
+                        </li>
+                        <li>
+                            <a href="#">oral surgery</a>
+                            <hr>
+                        </li>
+                        <li>
+                            <a href="#">endodontics</a>
+                            <hr>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 logo-div">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/logo-footer.png">
+                    <p>Silesia Dental Clinic</p>
+                    <!--<p>سيليسيا عيادة الأسنان</p> -->
+                    <ul class="footer-social-icon">
+                        <li>
+                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/fb.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/twitter.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/g+.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+	<footer class="footer">
+	    <p>&copy; Copyright 2016 silesia Dental Clinic, Dubai, UAE Terms &
+	    Conditions All Rights Reserved MOH FZ78578-17022017</p>
+	</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

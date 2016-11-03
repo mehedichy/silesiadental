@@ -164,3 +164,78 @@
 
 		}
 }
+
+// Remove required text before form 
+nf-section .nf-form-fields-required {
+    display: none !important;
+}
+
+#nf-field-1,
+#nf-field-2,
+#nf-field-3,
+#nf-field-5 {
+	width: 100%;
+	height: 46px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: .0625rem solid #ccc;
+}
+
+input.pikaday__display.pikaday__display--pikaday.ninja-forms-field.nf-element.datepicker {
+	width: 100%;
+	height: 46px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: .0625rem solid #ccc;
+}
+
+select#nf-field-7 {
+    width: 100%;
+    max-width: 270px;
+    height: 46px;
+    padding: .375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: .0625rem solid #ccc;
+    transition: border-color .25s ease,box-shadow .25s ease;
+}
+
+input#nf-field-4 {
+	font-family: adam-pro;
+    border: 0;
+    //max-width: 270px;
+    outline: none;
+    border: 3px solid #91a3b3;
+    border-radius: 32px !important;
+    padding: 7px 115px;
+    line-height: 26.35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    background: transparent;
+    color: #91a3b3;
+    -webkit-appearance: none;
+
+    &:hover {
+      background: #fff;
+      transition: all .5s ease-in-out;
+    }
+}
+.pika-single.is-bound {
+	width: 14.2%;
+}
+.pika-lendar {
+    width: 251px !important;
+    margin: 7px;
+}

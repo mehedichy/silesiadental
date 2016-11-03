@@ -1,0 +1,73 @@
+/* Info Bar */
+.info-bar {
+  background: rgb(145,163,179);
+  padding-left: 31px;
+  padding-top: 25px;
+  padding-bottom: 26px;
+
+  .media-heading {
+    font-family: 'aileron';
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: normal;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .media {
+    font-size: 14px;
+    color: #fff; 
+
+    address {
+      margin-bottom: 0;
+    }
+  }
+
+  .media-left {
+    padding-right: 36px;
+  }
+
+}
+
+@media only screen and (max-width : 480px) {
+  .info-bar {
+    .media {
+    margin-bottom: 20px;
+    padding-left: 0 !important;
+    .media-body {
+      display: block;
+      width: 100% !important;
+      text-align: center;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  }
+}
+@media only screen and (max-width : 768px) {
+  .info-bar {
+    .media {
+      margin-bottom: 18px;
+      padding-left: 20%;
+      .media-body {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+      }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  }
+}

@@ -56,7 +56,7 @@ class script_enqueue {
 
 		wp_enqueue_style(
 			'google-fonts',
-			'https://fonts.googleapis.com/css?family=Open+Sans'
+			'https://fonts.googleapis.com/css?family=Lato'
 		);
 
 		wp_enqueue_style(

@@ -18,6 +18,7 @@
 }
 .carousel-control {
 	width: 0;
+
 	.glyphicon-chevron-left {
 		position: absolute;
 		top: 45%;
@@ -130,6 +131,16 @@
     color: $color_white;
     font-size: 14px;
     font-weight: bold;
+
+    &:hover span {
+    	animation: gt 5s;
+    	animation-direction: forward;
+    }
+
+    @keyframes gt {
+	    from {left: 0px;}
+	    to {right: 10px;}
+	}
   }
 }
 

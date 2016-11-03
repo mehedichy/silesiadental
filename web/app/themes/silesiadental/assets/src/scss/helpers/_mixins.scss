@@ -13,6 +13,12 @@
 	text-rendering: optimizeLegibility;
 }
 
+@mixin btn-shadow {
+	box-shadow: 0 -15px 15px -15px #2C3E50, 0 15px 15px -15px #2C3E50;
+	transform: scale(1.1, 1.1);
+	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 
 // Card-like display of boxes with box shadow
 //
