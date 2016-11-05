@@ -141,32 +141,41 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/teeth-whitening.png">
-                    <h2>Teeth <span>whitening</span></h2>
-                    <p>Zoom professional whitening is the most requested
-                    whitening procedure by patients.</p>
-                    <a href="#" class="btn btn-lg btn-readmore"><span>Read more</span></a>
+                    <div class="services-box">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/teeth-whitening.png">
+                        <h2>Teeth <span>whitening</span></h2>
+                        <p>Zoom professional whitening is the most requested
+                        whitening procedure by patients.</p>
+                        <a href="#" class="btn btn-lg btn-readmore"><span>Read more</span></a>
+                    </div>
+                    
                 </div>
                 <div class="col-md-3">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/crown.png">
-                    <h2><span>Crowns</span> & Bridges</h2>
-                    <p>Crowns are made to match the color of your natural
-                    teeth, and it trengthens an impaired tooth.</p>
-                    <a href="#" class="btn btn-lg btn-readmore"><span>Read more</span></a>
+                    <div class="services-box">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/crown.png">
+                        <h2><span>Crowns</span> & Bridges</h2>
+                        <p>Crowns are made to match the color of your natural
+                        teeth, and it trengthens an impaired tooth.</p>
+                        <a href="#" class="btn btn-lg btn-readmore"><span>Read more</span></a>
+                    </div>
                 </div>
                 <div class="col-md-3">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/implant.png">
-                    <h2>Dental <span>implants</span></h2>
-                    <p>We are known to be the best dental clinic in Dubai
-                    for dental implants with the highest success rate.</p>
-                    <a href="#" class="btn btn-lg btn-readmore"><span>Read more</span></a>
+                    <div class="services-box">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/implant.png">
+                        <h2>Dental <span>implants</span></h2>
+                        <p>We are known to be the best dental clinic in Dubai
+                        for dental implants with the highest success rate.</p>
+                        <a href="#" class="btn btn-lg btn-readmore"><span>Read more</span></a>
+                    </div>
                 </div>
                 <div class="col-md-3">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/checkup.png">
-                    <h2>Dental <span>checkup</span></h2>
-                    <p>We make sure you get superior dental checkup using
-                    unparalleled technologies.</p>
-                    <a href="#" class="btn btn-lg btn-readmore"><span>Read more</span></a>
+                    <div class="services-box">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/checkup.png">
+                        <h2>Dental <span>checkup</span></h2>
+                        <p>We make sure you get superior dental checkup using
+                        unparalleled technologies.</p>
+                        <a href="#" class="btn btn-lg btn-readmore"><span>Read more</span></a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -62,8 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;
-  padding-bottom: 10px;
-  border-bottom: 1px dotted #f1f1f1; }
+  padding-bottom: 10px; }
 
 h2 {
   font-size: 1.75rem; }
@@ -390,6 +389,50 @@ body {
     padding-bottom: 0; }
 
 /* /Footer */
+#page-banner {
+  background: url(); }
+
+.content-area {
+  background: #fff;
+  padding: 25px 85px 55px 85px; }
+  .content-area header.entry-header {
+    background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url(assets/dist/img/entry-header.jpeg);
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-bottom: 1.5rem; }
+    .content-area header.entry-header .entry-title {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 700;
+      font-size: 4rem;
+      line-height: 1.5;
+      -webkit-font-feature-settings: "kern" 1;
+      text-rendering: optimizeLegibility;
+      text-transform: capitalize;
+      position: absolute;
+      top: 42%;
+      left: 37%;
+      color: #fff; }
+      @media screen and (min-width: 18.75em) {
+        .content-area header.entry-header .entry-title {
+          font-size: calc(16px + 1 * ((100vw - 18.75rem) / 31.25)); } }
+      @media screen and (min-width: 50em) {
+        .content-area header.entry-header .entry-title {
+          font-size: 4rem; } }
+  .content-area .entry-content h3 {
+    font-family: 'adam-pro', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1;
+    -webkit-font-feature-settings: "kern" 1;
+    text-rendering: optimizeLegibility;
+    opacity: 0.85; }
+  .content-area .entry-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0.7rem;
+    opacity: 0.80; }
+
 /* Slider */
 /* Header Styles */
 .carousel-indicators .active {
@@ -674,66 +717,70 @@ input {
 /* Services */
 .services {
   background: #fff;
-  padding: 77px 40px 0 28px;
+  padding: 67px 40px 0 28px;
   text-align: center; }
-  .services img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    padding-bottom: 43px; }
-  .services h2 {
-    color: #1BAFEC;
-    font-size: 24px;
-    text-align: center;
-    padding-bottom: 21px;
-    margin-bottom: 0;
-    margin-top: 0; }
-    .services h2 span {
-      font-weight: bold; }
-  .services p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    text-align: center;
-    padding-bottom: 29px;
-    margin-bottom: 0;
-    margin-top: 0; }
-  .services .btn-readmore {
-    font-family: adam-pro;
-    border-radius: 32px;
-    color: #91a3b3;
-    font-size: 12px;
-    background: transparent;
-    padding: 11px 30px 10px 30px;
-    margin-bottom: 60px;
-    border: solid #91a3b3 2px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    max-width: 126px;
+  .services .services-box {
+    padding-top: 10px;
+    margin-bottom: 50px;
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
-    .services .btn-readmore:hover {
-      box-shadow: 0 -15px 15px -15px #2C3E50, 0 15px 15px -15px #2C3E50;
-      transform: scale(1.1, 1.1);
+    .services .services-box:hover {
+      box-shadow: 0 0 15px #2C3E50; }
+    .services .services-box img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+      padding-bottom: 43px; }
+    .services .services-box h2 {
+      color: #1BAFEC;
+      font-size: 24px;
+      text-align: center;
+      padding-bottom: 21px;
+      margin-bottom: 0;
+      margin-top: 0; }
+      .services .services-box h2 span {
+        font-weight: bold; }
+    .services .services-box p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+      text-align: center;
+      padding-bottom: 29px;
+      margin-bottom: 0;
+      margin-top: 0; }
+    .services .services-box .btn-readmore {
+      font-family: adam-pro;
+      border-radius: 32px;
+      color: #91a3b3;
+      font-size: 12px;
+      background: transparent;
+      padding: 11px 30px 10px 30px;
+      margin-bottom: 10px;
+      border: solid #91a3b3 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+      max-width: 126px;
       transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
-    .services .btn-readmore span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s; }
-      .services .btn-readmore span:after {
-        content: '»';
-        position: absolute;
-        opacity: 0;
-        top: -15%;
-        right: 0;
+      .services .services-box .btn-readmore:hover {
+        transform: scale(1.1, 1.1);
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
+      .services .services-box .btn-readmore span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
         transition: 0.5s; }
-    .services .btn-readmore:hover span {
-      padding-right: 15px; }
-    .services .btn-readmore:hover span:after {
-      opacity: 1;
-      right: 0; }
+        .services .services-box .btn-readmore span:after {
+          content: '»';
+          position: absolute;
+          opacity: 0;
+          top: -15%;
+          right: 0;
+          transition: 0.5s; }
+      .services .services-box .btn-readmore:hover span {
+        padding-right: 15px; }
+      .services .services-box .btn-readmore:hover span:after {
+        opacity: 1;
+        right: 0; }
 
 /* /Services */
 .highlight {
@@ -773,7 +820,6 @@ input {
     .highlight .btn-highlights:hover {
       background: #fff;
       transition: all .5s ease-in-out;
-      box-shadow: 0 -15px 15px -15px #2C3E50, 0 15px 15px -15px #2C3E50;
       transform: scale(1.1, 1.1);
       transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
 
