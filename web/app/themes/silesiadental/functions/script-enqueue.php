@@ -24,6 +24,22 @@ class script_enqueue {
 			)
 		);
 
+		/*wp_enqueue_script(
+			'megamenu',
+			get_stylesheet_directory_uri() . '/assets/vendor/megamenu.js',
+			array(
+				'jquery'
+			)
+		);*/
+
+		wp_enqueue_script(
+			'bootstrap',
+			'https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
+			array(
+				'jquery'
+			)
+		);
+
 		if (WP_ENV === 'development') {
 			wp_enqueue_script(
 				'application',
@@ -57,6 +73,11 @@ class script_enqueue {
 		wp_enqueue_style(
 			'google-fonts',
 			'https://fonts.googleapis.com/css?family=Source+Sans+Pro'
+		);
+
+		wp_enqueue_style(
+			'ionicons',
+			'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'
 		);
 
 		wp_enqueue_style(

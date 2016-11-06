@@ -45,7 +45,7 @@ header {
   }
 }
 
-nav.navbar {
+/* nav.navbar {
   ul.navbar-nav {
     margin: 0;
     display: table;
@@ -96,9 +96,9 @@ nav.navbar {
       }
     }
   }
-}
+} */
 
-ul.dropdown-menu {
+/* ul.dropdown-menu {
   margin: 0;
   max-width: auto;
   //padding: 0;
@@ -133,16 +133,16 @@ ul.dropdown-menu {
       line-height: 1;
     }
   }
-}
-.navbar-toggler {
+} */
+/* .navbar-toggler {
   margin-top: 0;
 }
 @media only screen and (max-width:1024px){
   .body-container{
     width: 100% !important;
   }
-}
-@media only screen and (max-width: 992px) {
+} */
+/* @media only screen and (max-width: 992px) {
   .hidden-sm-up {
     display: inline !important;
   }
@@ -212,4 +212,318 @@ ul.dropdown-menu {
     }
   }
 }
+} */
+
+
+
+/* 
+- Name: megamenu.js - style.css
+- Version: 1.0
+- Latest update: 29.01.2016.
+- Author: Mario Loncarek
+- Author web site: http://marioloncarek.com
+*/
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Body - not related to megamenu
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #333;
+}
+
+.description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+megamenu.js STYLE STARTS HERE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Screen style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.menu-container {
+    width: 100%;
+    margin: 0 auto;
+    background: #e9e9e9;
+}
+
+.menu-mobile {
+    display: none;
+    padding: 20px;
+}
+
+.menu-mobile:after {
+    content: "\f394";
+    font-family: "Ionicons";
+    font-size: 2.5rem;
+    padding: 0;
+    float: right;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+}
+
+.menu-dropdown-icon:before {
+    content: "\f489";
+    font-family: "Ionicons";
+    display: none;
+    cursor: pointer;
+    float: right;
+    padding: 1.5em 2em;
+    background: #fff;
+    color: #333;
+}
+
+.menu > ul {
+    /* margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    IF .menu position=relative -> ul = container width, ELSE ul = 100% width
+    box-sizing: border-box; */
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    display: table;
+}
+
+.menu > ul:before,
+.menu > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul:after {
+    clear: both;
+}
+
+.menu > ul > li {
+    /* float: left;
+    background: #e9e9e9;
+    padding: 0;
+    margin: 0; */
+    background: #e9e9e9;
+    padding: 0;
+    margin: 0;
+    display: table-cell;
+    text-align: center;
+    float: left;
+    width: 16.6666666667%;
+    min-height: 1px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-left: 0!important;
+}
+
+.menu > ul > li a {
+    /* text-decoration: none;
+    padding: 1.5em 3em;
+    display: block; */
+    @include heading-font;
+    text-decoration: none;
+    display: block;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu > ul > li {
+
+  &:nth-child(1)>a {
+    background: #00adef;
+  }
+  &:nth-child(2)>a {
+    background: #179cd3;
+  }
+  &:nth-child(3)>a {
+    background: #0086b9;
+  }
+  &:nth-child(4)>a {
+    background: #0079a6;
+  }
+  &:nth-child(5)>a {
+    background: #01729c;
+  }
+  &:last-child>a {
+    background: #00688d;
+  }
+}
+
+.menu > ul > li:hover {
+    background: #f0f0f0;
+}
+
+.menu > ul > li > ul {
+    //display: none;
+    width: 100%;
+    background: #009bd5;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu > ul > li > ul:before,
+.menu > ul > li > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul > li > ul:after {
+    clear: both;
+}
+
+.menu > ul > li > ul > li {
+    margin: 0;
+    padding-bottom: 0;
+    list-style: none;
+    width: 33.3333333%;
+    background: none;
+    float: left;
+}
+
+.menu > ul > li > ul > li a {
+  @include primary-font(14px);
+    color: #fff;
+    padding: .2em 0;
+    width: 95%;
+    display: block;
+    text-transform: none;
+    //border-bottom: 1px solid #ccc;
+}
+
+.menu > ul > li > ul > li > ul {
+    display: block;
+    padding: 0;
+    margin: 10px 0 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu > ul > li > ul > li > ul:before,
+.menu > ul > li > ul > li > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul > li > ul > li > ul:after {
+    clear: both;
+}
+
+.menu > ul > li > ul > li > ul > li {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: .8em;
+}
+
+.menu > ul > li > ul > li > ul > li a {
+    border: 0;
+}
+
+.menu > ul > li > ul.normal-sub {
+    //width: 300px;
+    //left: auto;
+    padding: 10px 20px;
+}
+
+.menu > ul > li > ul.normal-sub > li {
+    //width: 100%;
+}
+
+.menu > ul > li > ul.normal-sub > li a {
+    border: 0;
+    padding: 1em 0;
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Mobile style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 959px) {
+    .menu-container {
+        width: 100%;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    .menu-dropdown-icon:before {
+        display: block;
+    }
+    .menu > ul {
+        //display: none;
+    }
+    .menu > ul > li {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .menu > ul > li a {
+        padding: 1.5em;
+        width: 100%;
+        display: block;
+    }
+    .menu > ul > li > ul {
+        position: relative;
+    }
+    .menu > ul > li > ul.normal-sub {
+        width: 100%;
+    }
+    .menu > ul > li > ul > li {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .menu > ul > li > ul > li:first-child {
+        margin: 0;
+    }
+    .menu > ul > li > ul > li > ul {
+        position: relative;
+    }
+    .menu > ul > li > ul > li > ul > li {
+        float: none;
+    }
+    .menu .show-on-mobile {
+        display: block;
+    }
 }
