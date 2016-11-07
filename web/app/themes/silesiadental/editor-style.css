@@ -19,6 +19,13 @@ body {
   font-family: 'aileron';
   src: url("assets/vendor/font/Aileron-Regular.otf") format("opentype"); }
 
+@font-face {
+  font-family: 'Ionicons';
+  src: url("assets/font/ionicons.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/font/ionicons.eot") format("embedded-opentype"), url("assets/font/ionicons.woff") format("woff"), url("assets/font/ionicons.ttf") format("truetype"), url("assets/font/ionicons.svg") format("svg");
+  /* Legacy iOS */ }
+
 a:link,
 a:visited {
   position: relative; }

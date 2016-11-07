@@ -3,7 +3,6 @@
 }
 .content-area {
 	background: #fff;
-    padding: 25px 85px 55px 85px;
 
     header.entry-header {
     	//background: url(assets/dist/img/entry-header.jpeg);
@@ -21,8 +20,8 @@
 	    	@include entry-title(4rem);
 	    	text-transform: capitalize;
 		    position: absolute;
-		    top: 42%;
-		    left: 37%;
+		    top: 35%;
+		    left: 35%;
 		    color: #fff;
 
 		    @media screen and (min-width: 18.75em) {
@@ -35,6 +34,8 @@
     }
 
     .entry-content {
+    	padding: 25px 85px 55px 85px;
+
     	h3 {
     		@include para-header(1.2rem);
     		opacity: 0.85;
@@ -47,4 +48,12 @@
     		opacity: 0.80;
     	}
     }
+}
+
+.content-column img {
+	width: 100%;
+	height: auto;
+}
+.last_column {
+	padding-left: 2rem;
 }

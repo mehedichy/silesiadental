@@ -11,3 +11,15 @@
 		padding: 0;
 	} 
 }
+
+
+::selection {
+	background: #2C3A49;
+	color: #fff;
+	text-shadow: 0 0 transparent;
+}
+::-moz-selection {
+	background: #2C3A49;
+	color: #fff;
+	text-shadow: 0 0 transparent;
+}

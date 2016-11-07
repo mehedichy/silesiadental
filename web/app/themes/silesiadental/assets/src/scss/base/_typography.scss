@@ -11,6 +11,14 @@
   font-family: 'aileron';
   src: url('assets/vendor/font/Aileron-Regular.otf') format('opentype');
 }
+@font-face {
+	font-family: 'Ionicons';
+	src: url('assets/font/ionicons.eot'); /* IE9 Compat Modes */
+	src: url('assets/font/ionicons.eot') format('embedded-opentype'), /* IE6-IE8 */
+		url('assets/font/ionicons.woff') format('woff'), /* Pretty Modern Browsers */
+		url('assets/font/ionicons.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('assets/font/ionicons.svg') format('svg'); /* Legacy iOS */
+}
 
 a:link,
 a:visited {
