@@ -26,11 +26,11 @@
         <header>
             <div class="banner">
                 <div class="container">
-                    <a href="/"><img class="img-responsive logo-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/logo.png"> </a>
+                    <a href="/"><img class="img-responsive logo-img no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/logo.png"> </a>
                     <ul class="social-icon">
-                        <li><a class="img-responsive" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/fb.png"></a></li>
-                        <li><a class="img-responsive" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/twitter.png"></a></li>
-                        <li><a class="img-responsive" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/g+.png"></a></li>
+                        <li><a class="img-responsive" href=""><img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/fb.png"></a></li>
+                        <li><a class="img-responsive" href=""><img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/twitter.png"></a></li>
+                        <li><a class="img-responsive" href=""><img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/g+.png"></a></li>
                     </ul>
                 </div>
             </div>

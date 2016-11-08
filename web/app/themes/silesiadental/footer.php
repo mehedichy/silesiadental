@@ -16,7 +16,7 @@
                 <div class="col-md-4">
                     <ul>
                         <li>
-                            <a href="#">Cosmetic Dentistry</a>
+                            <a href="/cosmetic-dentistry">Cosmetic Dentistry</a>
                             <hr>
                         </li>
                         <li>
@@ -24,7 +24,7 @@
                             <hr>
                         </li>
                         <li>
-                            <a href="#">Orthodontics</a>
+                            <a href="/orthodontics">Orthodontics</a>
                             <hr>
                         </li>
                         <li>
@@ -48,7 +48,7 @@
                             <hr>
                         </li>
                         <li>
-                            <a href="#">oral surgery</a>
+                            <a href="/removing-teeth">oral surgery</a>
                             <hr>
                         </li>
                         <li>
@@ -58,18 +58,18 @@
                     </ul>
                 </div>
                 <div class="col-md-4 logo-div">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/logo-footer.png">
+                    <img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/logo-footer.png">
                     <p>Silesia Dental Clinic</p>
                     <!--<p>سيليسيا عيادة الأسنان</p> -->
                     <ul class="footer-social-icon">
                         <li>
-                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/fb.png"></a>
+                            <a href="#"><img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/fb.png"></a>
                         </li>
                         <li>
-                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/twitter.png"></a>
+                            <a href="#"><img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/twitter.png"></a>
                         </li>
                         <li>
-                            <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/g+.png"></a>
+                            <a href="#"><img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/g+.png"></a>
                         </li>
                     </ul>
                 </div>

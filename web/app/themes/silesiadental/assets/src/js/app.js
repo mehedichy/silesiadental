@@ -37,31 +37,12 @@ jQuery(document).ready(function($){
     });
     //when clicked on mobile-menu, normal menu is shown as a list, classic rwd menu story (thanks mwl from stackoverflow)
 
-	//======= Mega menu
-	/*$(".dropdown-menu").hide();
-    $(".dropdown").hover(
-        function() { $('.dropdown-menu', this).stop().fadeIn("fast");},
-        function() { $('.dropdown-menu', this).stop().fadeOut("fast");
-    });
-
-    var devicewidth= $(window).width();
-	if ( devicewidth <= 768 ){
-		$('.dropdown').unbind('mouseenter mouseleave');
-		$('.dropdown').click(function(){
-			$(".dropdown-menu").toggle();
-		});
-	}*/
-
-	/*$('.menu > ul > li > ul').addClass('dropdown-menu');
-	$('.menu > ul:nth-child(2)').addClass('dropdown');
-	$(".menu > ul > li:nth-child(2) > a").attr("data-toggle","dropdown");*/
-    /*//======= Menu class addition
-    $('nav.navbar ul.navbar-nav > li').addClass('nav-item');
-    //$('nav.navbar ul.navbar-nav > li:nth-child(2)').addClass('dropdown menu-large');
-    $('nav.navbar ul.navbar-nav>li>a').addClass('nav-link');
-    //$("nav.navbar ul.navbar-nav > li:nth-child(2) > a").attr("data-toggle","dropdown");*/
-
-
     $(".datepicker").attr("placeholder", "Date");
 
 });
+
+//=== Initialize lightense-images
+window.addEventListener('load', function () {
+  var el = document.querySelectorAll('img:not(.no-lightense),.lightense');
+  Lightense(el);
+}, false);

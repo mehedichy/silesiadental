@@ -199,7 +199,7 @@ input.pikaday__display.pikaday__display--pikaday.ninja-forms-field.nf-element.da
 
 select#nf-field-7 {
     width: 100%;
-    max-width: 270px;
+    //max-width: 270px;
     height: 46px;
     padding: .375rem 0.75rem;
     font-size: 1rem;
@@ -233,9 +233,23 @@ input#nf-field-4 {
     }
 }
 .pika-single.is-bound {
-	width: 14.2%;
+	width: 18%;
 }
 .pika-lendar {
-    width: 251px !important;
+    //width: 251px !important;
     margin: 7px;
+}
+
+// Below 34em (544px)
+@include media("<sm")  {
+  .nf-form-cont .one-half, .nf-form-cont .three-sixths, .nf-form-cont .two-fourths {
+  	clear: both;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+@include media("<md") {
+	.nf-form-content {
+		width: 100%;
+	}
 }

@@ -24,7 +24,7 @@ get_header(); ?>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img alt="First slide" src=
-                        "<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"> 
+                        "<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" class="no-lightense"> 
                         <!-- Static Header -->
                         <div class="header-text hidden-xs">
                             <div class="col-md-6">
@@ -38,7 +38,7 @@ get_header(); ?>
                     </div>
                     <div class="carousel-item">
                         <img alt="Second slide" src=
-                        "<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/teeth.jpg"> <!-- Static Header -->
+                        "<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/teeth.jpg" class="no-lightense"> <!-- Static Header -->
                         <div class="header-text hidden-xs">
                             <div class="col-md-6">
                                 <h2>Fast & effective</h2>
@@ -51,7 +51,7 @@ get_header(); ?>
                     </div>
                     <div class="carousel-item">
                         <img alt="Third slide" src=
-                        "<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/smile.jpg"> <!-- Static Header -->
+                        "<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/smile.jpg" class="no-lightense"> <!-- Static Header -->
                         <div class="header-text hidden-xs">
                             <div class="col-md-6">
                                 <h2>Fast & effective</h2>
@@ -142,26 +142,25 @@ get_header(); ?>
             <div class="row">
                 <div class="col-md-3">
                     <div class="services-box">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/teeth-whitening.png">
+                        <img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/teeth-whitening.png">
                         <h2>Teeth <span>whitening</span></h2>
                         <p>Zoom professional whitening is the most requested
                         whitening procedure by patients.</p>
-                        <a href="#" class="btn btn-lg btn-readmore"><span>Read more</span></a>
+                        <a href="/cosmetic-dentistry/#teeth-whitening" class="btn btn-lg btn-readmore"><span>Read more</span></a>
                     </div>
-                    
                 </div>
                 <div class="col-md-3">
                     <div class="services-box">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/crown.png">
+                        <img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/crown.png">
                         <h2><span>Crowns</span> & Bridges</h2>
                         <p>Crowns are made to match the color of your natural
                         teeth, and it trengthens an impaired tooth.</p>
-                        <a href="#" class="btn btn-lg btn-readmore"><span>Read more</span></a>
+                        <a href="/replacing-teeth/#crowns-bridges" class="btn btn-lg btn-readmore"><span>Read more</span></a>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="services-box">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/implant.png">
+                        <img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/implant.png">
                         <h2>Dental <span>implants</span></h2>
                         <p>We are known to be the best dental clinic in Dubai
                         for dental implants with the highest success rate.</p>
@@ -170,7 +169,7 @@ get_header(); ?>
                 </div>
                 <div class="col-md-3">
                     <div class="services-box">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/checkup.png">
+                        <img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/checkup.png">
                         <h2>Dental <span>checkup</span></h2>
                         <p>We make sure you get superior dental checkup using
                         unparalleled technologies.</p>
@@ -182,7 +181,7 @@ get_header(); ?>
     </div><!-- /Services -->
 
     <!-- Hospital View -->
-    <div class="hospital">
+    <div class="hospital" style="max-height: 402px;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sbd!4v1466665322198!6m8!1m7!1s466qD8vS-8kAAAQvO3TL3A!2m2!1d25.25410663770023!2d55.32890193067852!3f36!4f0!5f0.7820865974627469" width="100%" height="402px" frameborder="0" style="border:0" allowfullscreen>
         </iframe>
     </div><!-- /Hospital View -->

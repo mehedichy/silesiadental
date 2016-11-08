@@ -36,6 +36,10 @@
     .entry-content {
     	padding: 25px 85px 55px 85px;
 
+    	@include media("<sm") {
+    		padding: 25px 15px 55px 25px;
+    	}
+
     	h3 {
     		@include para-header(1.2rem);
     		opacity: 0.85;
@@ -50,9 +54,15 @@
     }
 }
 
-.content-column img {
-	width: 100%;
-	height: auto;
+/* Plugin Customization */
+
+.content-column {
+	margin-bottom: 3rem;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
 }
 .last_column {
 	padding-left: 2rem;

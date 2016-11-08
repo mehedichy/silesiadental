@@ -24,13 +24,10 @@ class script_enqueue {
 			)
 		);
 
-		/*wp_enqueue_script(
-			'megamenu',
-			get_stylesheet_directory_uri() . '/assets/vendor/megamenu.js',
-			array(
-				'jquery'
-			)
-		);*/
+		wp_enqueue_script(
+			'lightense-images',
+			get_stylesheet_directory_uri() . '/node_modules/lightense-images/lightense.min.js'
+		);
 
 		wp_enqueue_script(
 			'bootstrap',
