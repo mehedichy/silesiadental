@@ -52,7 +52,7 @@ header {
 .menu-container {
     width: 100%;
     margin: 0 auto;
-    background: #00AEEF;
+    background: #034156;
 }
 
 .menu-mobile {
@@ -83,9 +83,11 @@ header {
     display: none;
     cursor: pointer;
     float: right;
-    padding: 1.5em 2em;
-    background: #fff;
-    color: #333;
+    padding: 1.2em 2em;
+    background: #034156;
+    color: #fff;
+    z-index: 1;
+    position: relative;
 }
 
 .menu > ul {
@@ -223,30 +225,32 @@ header {
 .menu > ul > li > ul > li > ul > li a {
   @include primary-font(14px);
   font-weight: normal;
-    border: 0;
-    padding-top: 10px;
-    text-align: left;
-    margin-left: 4rem;
+  border: 0;
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 4rem;
 
-    i {
-      padding-right: 11px;
-      font-size: 11px;
-    }
+  i {
+    font-size: 6px;
+    bottom: 7px;
+    position: absolute;
+    left: -5%;
+  }
 }
 
 .menu > ul > li > ul.normal-sub {
-    width: 300px;
-    left: auto;
-    padding: 10px 20px;
+  width: 300px;
+  left: auto;
+  padding: 10px 20px;
 }
 
 .menu > ul > li > ul.normal-sub > li {
-    width: 100%;
+  width: 100%;
 }
 
 .menu > ul > li > ul.normal-sub > li a {
-    border: 0;
-    padding: 1em 0;
+  border: 0;
+  padding: 1em 0;
 }
 
 
@@ -260,6 +264,11 @@ Mobile style's
     }
     .menu-mobile {
         display: block;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          color: #fff;
+        }
     }
     .menu-dropdown-icon:before {
         display: block;
@@ -273,7 +282,7 @@ Mobile style's
         display: block;
     }
     .menu > ul > li a {
-        padding: 1.5em;
+        padding: 1.5em 7rem;
         width: 100%;
         display: block;
     }
@@ -298,6 +307,8 @@ Mobile style's
         float: none;
     }
     .menu .show-on-mobile {
-        display: block;
+      display: block;
+      z-index: 1;
+      position: absolute;
     }
 }

@@ -217,7 +217,7 @@ header .banner {
 .menu-container {
   width: 100%;
   margin: 0 auto;
-  background: #00AEEF; }
+  background: #034156; }
 
 .menu-mobile {
   display: none;
@@ -247,9 +247,11 @@ header .banner {
   display: none;
   cursor: pointer;
   float: right;
-  padding: 1.5em 2em;
-  background: #fff;
-  color: #333; }
+  padding: 1.2em 2em;
+  background: #034156;
+  color: #fff;
+  z-index: 1;
+  position: relative; }
 
 .menu > ul {
   margin: 0 auto;
@@ -381,8 +383,10 @@ header .banner {
   text-align: left;
   margin-left: 4rem; }
   .menu > ul > li > ul > li > ul > li a i {
-    padding-right: 11px;
-    font-size: 11px; }
+    font-size: 6px;
+    bottom: 7px;
+    position: absolute;
+    left: -5%; }
 
 .menu > ul > li > ul.normal-sub {
   width: 300px;
@@ -403,7 +407,10 @@ Mobile style's
   .menu-container {
     width: 100%; }
   .menu-mobile {
-    display: block; }
+    display: block;
+    transition: all 0.5s ease-in-out; }
+    .menu-mobile:hover {
+      color: #fff; }
   .menu-dropdown-icon:before {
     display: block; }
   .menu > ul {
@@ -413,7 +420,7 @@ Mobile style's
     float: none;
     display: block; }
   .menu > ul > li a {
-    padding: 1.5em;
+    padding: 1.5em 7rem;
     width: 100%;
     display: block; }
   .menu > ul > li > ul {
@@ -431,7 +438,9 @@ Mobile style's
   .menu > ul > li > ul > li > ul > li {
     float: none; }
   .menu .show-on-mobile {
-    display: block; } }
+    display: block;
+    z-index: 1;
+    position: absolute; } }
 
 body {
   font-size: 100%;
@@ -507,9 +516,6 @@ body {
     padding-bottom: 0; }
 
 /* /Footer */
-#page-banner {
-  background: url(); }
-
 .content-area {
   background: #fff; }
   .content-area header.entry-header {
@@ -564,6 +570,35 @@ body {
 
 .last_column {
   padding-left: 2rem; }
+
+#contact-page header.entry-header {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url(assets/dist/img/miami-beach.jpg);
+  height: 45vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-bottom: 1.5rem; }
+  #contact-page header.entry-header .entry-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.5;
+    -webkit-font-feature-settings: "kern" 1;
+    text-rendering: optimizeLegibility;
+    text-transform: capitalize;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: #fff; }
+    @media screen and (min-width: 18.75em) {
+      #contact-page header.entry-header .entry-title {
+        font-size: calc(16px + 1 * ((100vw - 18.75rem) / 31.25)); } }
+    @media screen and (min-width: 50em) {
+      #contact-page header.entry-header .entry-title {
+        font-size: 4rem; } }
+
+#contact-page .entry-content .content-column h3.media-heading {
+  margin-bottom: 30px; }
 
 /* Slider */
 /* Header Styles */
@@ -917,8 +952,7 @@ input {
 /* /Services */
 .highlight {
   background: whitesmoke;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
   text-align: center; }
   .highlight h1 {
     font-size: 36px;
@@ -1120,6 +1154,7 @@ input.pikaday__display.pikaday__display--pikaday.ninja-forms-field.nf-element.da
 
 select#nf-field-7 {
   width: 100%;
+  max-width: 270px;
   height: 46px;
   padding: .375rem 0.75rem;
   font-size: 1rem;
@@ -1131,25 +1166,32 @@ select#nf-field-7 {
   transition: border-color .25s ease,box-shadow .25s ease; }
 
 input#nf-field-4 {
-  font-family: adam-pro;
+  font-family: 'adam-pro', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-feature-settings: "kern" 1;
+  text-rendering: optimizeLegibility;
   border: 0;
+  width: 100%;
   outline: none;
   border: 3px solid #91a3b3;
   border-radius: 32px !important;
   padding: 7px 115px;
   line-height: 26.35px;
-  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: normal;
   background: transparent;
   color: #91a3b3;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  transition: all .5s ease-in-out; }
   input#nf-field-4:hover {
-    background: #fff;
-    transition: all .5s ease-in-out; }
+    background: #91a3b3;
+    color: #fff;
+    border-radius: 14px !important; }
 
 .pika-single.is-bound {
-  width: 18%; }
+  width: 271px; }
 
 .pika-lendar {
   margin: 7px; }
@@ -1158,12 +1200,21 @@ input#nf-field-4 {
   .nf-form-cont .one-half, .nf-form-cont .three-sixths, .nf-form-cont .two-fourths {
     clear: both;
     width: 100% !important;
-    margin-left: 0 !important; } }
+    margin-left: 0 !important; }
+  select#nf-field-7 {
+    max-width: 100%; } }
 
 @media (max-width: 47.99em) {
   .nf-form-content {
-    width: 100%; } }
+    width: 100%; }
+  select#nf-field-7 {
+    max-width: 100% !important; } }
 
+/* select {
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+} */
 /*====== Header/Banner=======*/
 @media only screen and (max-width: 480px) {
   header .banner {
@@ -1326,6 +1377,15 @@ input#nf-field-4 {
     outline: none; } }
 
 /* Extra small */
+@media (max-width: 320px) {
+  .header-text h2 {
+    font-size: 40px; }
+  .header-text h4 {
+    margin-bottom: 1rem !important; }
+  .header-text p {
+    display: none; } }
+
+/* Small */
 @media (max-width: 33.9em) {
   .carousel-indicators li, .carousel-indicators .active {
     margin-bottom: -29px; }
@@ -1343,19 +1403,19 @@ input#nf-field-4 {
     .header-text h2 {
       margin-top: 0;
       margin-bottom: 5px;
-      font-size: 22px;
+      font-size: 45px;
       font-weight: bold; }
     .header-text h4 {
       margin-top: 0;
       margin-bottom: 0;
-      font-size: 20px;
+      font-size: 25px;
       font-weight: 400;
       text-transform: none;
       letter-spacing: normal; }
     .header-text p {
       padding-top: .3em;
       padding-bottom: 0;
-      font-size: 13px;
+      font-size: 16px;
       margin-bottom: 0; }
   .btn-slider {
     display: inline-block !important;
@@ -1365,7 +1425,7 @@ input#nf-field-4 {
     padding-bottom: 13px !important;
     padding-left: 23px !important;
     margin-left: 0;
-    font-size: 12px !important;
+    font-size: 13px !important;
     font-weight: bold !important;
     text-transform: uppercase;
     letter-spacing: normal !important;

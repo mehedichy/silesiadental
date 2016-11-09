@@ -1,0 +1,38 @@
+#contact-page {
+
+	header.entry-header {
+		background: linear-gradient(
+	                 rgba(20,20,20, .5), 
+	                 rgba(20,20,20, .5)),
+	                 url(assets/dist/img/miami-beach.jpg);
+		height: 45vh;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: 50% 50%;
+	    margin-bottom: 1.5rem;
+
+		.entry-title {
+	    	@include entry-title(4rem);
+	    	text-transform: capitalize;
+		    position: absolute;
+		    top: 35%;
+		    left: 35%;
+		    color: #fff;
+
+		    @media screen and (min-width: 18.75em) {
+			    font-size: calc(16px + 1 * ((100vw - 18.75rem) / 31.25));
+			}
+			@media screen and (min-width: 50em) {
+			    font-size: 4rem;
+			}
+	    }
+	}
+
+	.entry-content {
+		.content-column {
+			h3.media-heading {
+				margin-bottom: 30px;
+			}
+		}
+	}
+}

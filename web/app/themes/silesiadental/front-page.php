@@ -140,7 +140,7 @@ get_header(); ?>
     <div class="services">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="services-box">
                         <img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/teeth-whitening.png">
                         <h2>Teeth <span>whitening</span></h2>
@@ -149,7 +149,7 @@ get_header(); ?>
                         <a href="/cosmetic-dentistry/#teeth-whitening" class="btn btn-lg btn-readmore"><span>Read more</span></a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="services-box">
                         <img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/crown.png">
                         <h2><span>Crowns</span> & Bridges</h2>
@@ -158,7 +158,7 @@ get_header(); ?>
                         <a href="/replacing-teeth/#crowns-bridges" class="btn btn-lg btn-readmore"><span>Read more</span></a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="services-box">
                         <img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/implant.png">
                         <h2>Dental <span>implants</span></h2>
@@ -167,7 +167,7 @@ get_header(); ?>
                         <a href="#" class="btn btn-lg btn-readmore"><span>Read more</span></a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="services-box">
                         <img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/checkup.png">
                         <h2>Dental <span>checkup</span></h2>

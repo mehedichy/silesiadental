@@ -199,7 +199,7 @@ input.pikaday__display.pikaday__display--pikaday.ninja-forms-field.nf-element.da
 
 select#nf-field-7 {
     width: 100%;
-    //max-width: 270px;
+    max-width: 270px;
     height: 46px;
     padding: .375rem 0.75rem;
     font-size: 1rem;
@@ -212,28 +212,30 @@ select#nf-field-7 {
 }
 
 input#nf-field-4 {
-	font-family: adam-pro;
+	@include heading-font(14px);
     border: 0;
     //max-width: 270px;
+    width: 100%;
     outline: none;
     border: 3px solid #91a3b3;
     border-radius: 32px !important;
     padding: 7px 115px;
     line-height: 26.35px;
-    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: normal;
     background: transparent;
     color: #91a3b3;
     -webkit-appearance: none;
+    transition: all .5s ease-in-out;
 
     &:hover {
-      background: #fff;
-      transition: all .5s ease-in-out;
+      background: #91a3b3;
+      color: #fff;
+      border-radius: 14px !important;
     }
 }
 .pika-single.is-bound {
-	width: 18%;
+	width: 271px;
 }
 .pika-lendar {
     //width: 251px !important;
@@ -247,9 +249,22 @@ input#nf-field-4 {
     width: 100% !important;
     margin-left: 0 !important;
   }
+  select#nf-field-7 {
+  	max-width: 100%;
+  }
 }
 @include media("<md") {
 	.nf-form-content {
 		width: 100%;
 	}
+	select#nf-field-7 {
+		max-width: 100% !important;
+	}
 }
+
+
+/* select {
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+} */
