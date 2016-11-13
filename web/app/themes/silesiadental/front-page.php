@@ -190,7 +190,7 @@ get_header(); ?>
     <div class="highlight">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-offset-3">
+                <div class="col-lg-6 col-lg-offset-3">
                     <h1>20 yeas of<br>
                     dental <span>excellence</span></h1>
                     <p>Silesia Dental Clinic is the leading and most trusted dental healthcare provider in Dubai with a

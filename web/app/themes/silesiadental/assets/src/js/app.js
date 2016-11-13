@@ -33,11 +33,12 @@ jQuery(document).ready(function($){
 
     $(".menu-mobile").click(function (e) {
         $(".menu > ul").toggleClass('show-on-mobile');
+        $(".carousel>ol").toggleClass('carousel-indicators indicators-remove');
         e.preventDefault();
     });
     //when clicked on mobile-menu, normal menu is shown as a list, classic rwd menu story (thanks mwl from stackoverflow)
 
-    $(".datepicker").attr("placeholder", "Date");
+    //$(".datepicker").attr("placeholder", "Date");
 
 });
 

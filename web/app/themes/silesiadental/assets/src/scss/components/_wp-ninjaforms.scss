@@ -268,3 +268,30 @@ input#nf-field-4 {
   text-indent: 0.01px;
   text-overflow: '';
 } */
+
+.about-form-div {
+	input#nf-field-1,
+	input#nf-field-2,
+	input#nf-field-5 {
+	    max-width: 320px;
+	}
+	input.pikaday__display.pikaday__display--pikaday.ninja-forms-field.nf-element.datepicker {
+		max-width: 320px;
+	}
+	.nf-form-cont .one-half, 
+	.nf-form-cont .three-sixths, 
+	.nf-form-cont .two-fourths {
+		clear: both;
+		width: 320px;
+		margin-left: 0 !important;
+	}
+
+	select#nf-field-7 {
+	  max-width: 320px;
+	}
+
+	input#nf-field-4 {
+		padding: 7px 90px;
+		width: initial;
+	}
+}

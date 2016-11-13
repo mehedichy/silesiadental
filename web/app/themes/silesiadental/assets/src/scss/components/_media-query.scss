@@ -1,18 +1,18 @@
 /*====== Header/Banner=======*/
 @media only screen and (max-width: 480px) {
   header .banner {
-    height: 77px;
+    height: 100px;
 
     .logo-img {
       width: 150px;
       height: auto;
-      margin-top: 0;
+      margin-top: 15px;
       margin-left: 0;
     }
 
     ul {
       padding-left: 0;
-      margin-top: 0;
+      margin-top: 5px;
       margin-right: 0;
       margin-left: 0;
 
@@ -113,7 +113,6 @@
 }
 
 /*========= Slider ========== */
-@media (max-width: 74.9em) {}
 
 /* Medium */
 @media (max-width: 61.9em) {
@@ -147,7 +146,7 @@
     p {
       padding-top: .5em;
       padding-bottom: 15px;
-      font-size: 15px;
+      font-size: 16px;
     }
   }
 
@@ -206,6 +205,7 @@
 
     p {
       padding-top: 3px;
+      padding-right: 1rem;
       padding-bottom: 19px;
       font-size: 19px;
     }
@@ -230,15 +230,18 @@
 }
 
 /* Extra small */
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .header-text {
 
     h2 {
-      font-size: 40px;
+      font-size: 35px !important;
+      text-align: left !important;
+      margin-bottom: 15px;
     }
     
     h4 {
       margin-bottom: 1rem !important;
+      font-size: 21px;
     }
     p {
       display: none;
@@ -255,23 +258,18 @@
   }
 
   .carousel-inner img {
-    height: 450px;
+    height: 500px;
   }
 
   .header-text {
-    /* position: absolute;
-    top: 6%;
-    right: auto;
-    left: 0;
-    width: 100%; */
-    text-align: center;
+    text-align: left;
     padding-right: 15px;
     margin-top: -5px;
 
     h2 {
       margin-top: 0;
       margin-bottom: 5px;
-      font-size: 45px;
+      font-size: 40px;
       font-weight: bold;
     }
 
@@ -311,7 +309,6 @@
 }
 
 /*========= Info Bar ==========*/
-@media (max-width: 74.9em) {}
 
 /* Medium */
 @media (max-width: 61.9em) {
@@ -380,7 +377,6 @@
 }
 
 /*========= Appointment ==========*/
-@media (max-width: 74.9em) {}
 
 /* Medium */
 @media (max-width: 61.9em) {
@@ -457,13 +453,6 @@
 }
 
 /*========= Services ==========*/
-@media (max-width: 74.9em) {}
-
-/* Medium */
-@media (max-width: 61.9em) {}
-
-/* Small */
-@media (max-width: 47.9em) {}
 
 /* Extra small */
 @media (max-width: 33.9em) {
@@ -496,11 +485,6 @@
 }
 
 /*=========== Highlights ===========*/
-/* Medium */
-@media (max-width: 61.9em) {}
-
-/* Small */
-@media (max-width: 47.9em) {}
 
 /* Extra small */
 @media (max-width: 33.9em) {

@@ -13,15 +13,16 @@
 
 		.entry-title {
 	    	@include entry-title(4rem);
+	    	font-size: 11vmin;
 	    	text-transform: capitalize;
 		    position: absolute;
 		    top: 35%;
 		    left: 35%;
 		    color: #fff;
 
-		    @media screen and (min-width: 18.75em) {
-			    font-size: calc(16px + 1 * ((100vw - 18.75rem) / 31.25));
-			}
+		    /* @media screen and (min-width: 18.75em) {
+		    			    font-size: calc(16px + 1 * ((100vw - 18.75rem) / 31.25));
+		    			} */
 			@media screen and (min-width: 50em) {
 			    font-size: 4rem;
 			}

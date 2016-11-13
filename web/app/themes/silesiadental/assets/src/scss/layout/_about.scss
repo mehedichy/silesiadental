@@ -1,0 +1,109 @@
+#about-banner {
+	background: linear-gradient(
+                 rgba(20,20,20, .5), 
+                 rgba(20,20,20, .5)),
+                 url(assets/dist/img/about.jpg);
+	height: 25vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.post-14 {
+	margin-top: -2rem; 
+
+	header {
+		display: none;
+	}
+}
+.about {
+	padding: 60px 0;
+	.entry-content {
+		padding: 0 18rem;
+		margin-top: -2rem;
+
+		// Below 62em (992px)
+		@include media("<lg") {
+			padding: 0 11rem;
+		}
+
+		// Below 48em (768px)
+		@include media("<md") {
+			padding: 0 9rem;
+		}
+
+		// Below 34em (544px)
+		@include media("<sm") {
+			padding: 0 3rem;
+		}
+
+
+		h2 {
+			font-size: 40px;
+			font-family: "AcuminPro";
+			color: #303030;
+			line-height: 0.908;
+		}
+
+		h4 {
+			font-size: 22px;
+			font-family: "AcuminPro Regular";
+			color: #303030;
+			line-height: 1.65;
+			text-align: left;
+		}
+
+		p {
+			font-size: 16px;
+			font-family: "AcuminPro Regular";
+			color: #303030;
+			line-height: 1.5;
+			text-align: left;
+		}
+
+	}
+}
+
+.page-appointment {
+	background: rgb(235,235,235);
+	padding-top: 65px;
+	padding-bottom: 60px;
+
+	.appointment-div {
+		padding-left: 190px;
+
+		h1 {
+			margin: 0;
+		}
+
+		// Below 62em (992px)
+		@include media("<lg") {
+			padding-left: 3rem;
+		}
+
+		// Below 48em (768px)
+		@include media("<md") {
+			padding-left: 2rem;
+		}
+
+		// Below 34em (544px)
+		@include media("<sm") {
+			padding-left: 1rem;
+		}
+	}
+
+	.info-div {
+		padding-left: 50px;
+		h1 {
+			margin: 0;
+			padding: 0;
+		}
+
+		.media {
+			overflow: initial;
+		}
+
+		.media:first-child {
+		    margin-top: 9px;
+		}
+	}
+}
