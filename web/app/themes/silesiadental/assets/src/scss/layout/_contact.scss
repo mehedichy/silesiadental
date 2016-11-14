@@ -1,39 +1,45 @@
 #contact-page {
-
 	header.entry-header {
-		background: linear-gradient(
-	                 rgba(20,20,20, .5), 
-	                 rgba(20,20,20, .5)),
-	                 url(assets/dist/img/miami-beach.jpg);
-		height: 45vh;
-	    background-size: cover;
-	    background-repeat: no-repeat;
-	    background-position: 50% 50%;
-	    margin-bottom: 1.5rem;
+		display: none;
+	}
+}
+#contact-form {
+	background-color: #ebebeb;
+	padding: 4.5rem 0;
 
-		.entry-title {
-	    	@include entry-title(4rem);
-	    	font-size: 11vmin;
-	    	text-transform: capitalize;
-		    position: absolute;
-		    top: 35%;
-		    left: 35%;
-		    color: #fff;
-
-		    /* @media screen and (min-width: 18.75em) {
-		    			    font-size: calc(16px + 1 * ((100vw - 18.75rem) / 31.25));
-		    			} */
-			@media screen and (min-width: 50em) {
-			    font-size: 4rem;
-			}
-	    }
+	.ninja-forms-field {
+		max-width: 379px;
+		height: 46px;
+	    padding: .375rem .75rem;
+	    font-size: 1rem;
+	    line-height: 1.5;
+	    color: #55595c;
+	    background-color: #fff;
+	    background-image: none;
+	    border: .0625rem solid #ccc;
 	}
 
-	.entry-content {
-		.content-column {
-			h3.media-heading {
-				margin-bottom: 30px;
-			}
-		}
+	textarea {
+		min-height: 185px;
+	}
+
+	.field-wrap input[type="button"] {
+		padding: 0.8rem 4rem;
+	    outline: none;
+	    border: 3px solid #91a3b3;
+	    border-radius: 32px !important;
+	    line-height: 1;
+	    text-transform: uppercase;
+	    letter-spacing: normal;
+	    background: transparent;
+	    color: #91a3b3;
+	    -webkit-appearance: none;
+	    transition: all .5s ease-in-out;
+
+	    &:hover {
+	      background: #91a3b3;
+	      color: #fff;
+	      border-radius: 14px !important;
+	    }
 	}
 }

@@ -9,14 +9,12 @@
 
 get_header(); ?>
 
-	<section id="service-page-banner">
-		<div class="col-md-12">
-			<div class="text-area">
-				<h1>Healthy Smile <span>for every child</span></h1>
-				<p>We work hard to make each dental visit fun and kid-oriented because we believe that oral 
-				healthcare need not be a scary experience for your child.</p>
-			</div>
-		</div>
+	<section id="header-img">
+		<?php 
+			if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+				the_post_thumbnail();
+			} 
+		?>
 	</section>
 
 	<!-- Info Bar -->
@@ -72,7 +70,7 @@ get_header(); ?>
     </div><!-- /Info Bar -->
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main service-page" role="main">
 
 			<?php
 			while ( have_posts() ) : the_post();
@@ -113,6 +111,119 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
+
+	<!-- FAQs -->
+	 <section id="faq">
+	 	<div class="container">
+	        <div class="row">
+	        	<div class="col-md-8 col-sm-12 col-xs-12">
+		            <div class="panel-group wrap" id="bs-collapse">
+		                <div class="panel">
+		                    <div class="panel-heading">
+		                        <h4 class="panel-title">
+						        	<a data-toggle="collapse" data-parent="#bs-collapse" href="#one">What Dental Procedures Do Our Specialist Pedodontists Do?</a>
+						      	</h4>
+		                    </div>
+		                    <div id="one" class="panel-collapse collapse">
+		                        <div class="panel-body">
+		                            Children who enjoy their first trip to their dentists (and their sunny, colorful rooms with fancy paintings on the walls) suggest a promising attitude towards their dental care, health and habits.
+		                        </div>
+		                    </div>
+
+		                </div>
+		                <!-- end of panel -->
+
+		                <div class="panel">
+		                    <div class="panel-heading">
+		                        <h4 class="panel-title">
+						        	<a data-toggle="collapse" data-parent="#bs-collapse" href="#two">Dental Care for Your Baby</a>
+						      	</h4>
+		                    </div>
+		                    <div id="two" class="panel-collapse collapse">
+		                        <div class="panel-body">
+
+		                            Where is the harp on the harpstring, and the red fire glowing? Where is the spring and the harvest and the tall corn growing?
+
+		                        </div>
+
+		                    </div>
+		                </div>
+		                <!-- end of panel -->
+
+		                <div class="panel">
+		                    <div class="panel-heading">
+		                        <h4 class="panel-title">
+						        	<a data-toggle="collapse" data-parent="#bs-collapse" href="#three">CPediatric Dentistry FAQs</a>
+						      	</h4>
+		                    </div>
+		                    <div id="three" class="panel-collapse collapse">
+		                        <div class="panel-body">
+		                            ave gone down in the West behind the hills into shadow. Who shall gather the smoke of the deadwood burning, Or behold the flowing years from the Sea returning? The days have gone down in the West behind the hills into shadow. Who shall gather the smoke of the deadwood burning, Or behold the flowing years from the Sea returning? The days have gone down in the West behind the hills into shadow. Who shall gather the smoke of the deadwood burning, Or behold the flowing years from the Sea returning? The days have gone down in the West behind the hills into shadow. Who shall gather the smoke of the deadwood burning, Or behold the flowing years from the Sea returning?
+		                        </div>
+		                    </div>
+		                </div>
+		                <!-- end of panel -->
+
+		                <div class="panel">
+		                    <div class="panel-heading">
+		                        <h4 class="panel-title">
+							        <a data-toggle="collapse" data-parent="#bs-collapse" href="#four">Pediatric Dental Emergencies</a>
+						      	</h4>
+		                    </div>
+		                    <div id="four" class="panel-collapse collapse">
+		                        <div class="panel-body">
+
+		                            They have passed like rain on the mountain, like a wind in the meadow; The days have gone down in the West behind the hills into shadow.
+		                        </div>
+		                    </div>
+		                </div>
+		                <!-- end of panel -->
+
+		                <div class="panel">
+		                    <div class="panel-heading">
+		                        <h4 class="panel-title">
+							        <a data-toggle="collapse" data-parent="#bs-collapse" href="#five">Dental Sealants</a>
+						      	</h4>
+		                    </div>
+		                    <div id="five" class="panel-collapse collapse">
+		                        <div class="panel-body">
+
+		                            They have passed like rain on the mountain, like a wind in the meadow; The days have gone down in the West behind the hills into shadow.
+		                        </div>
+		                    </div>
+		                </div>
+		                <!-- end of panel -->
+
+		            </div>
+		            <!-- end of #bs-collapse  -->
+		        </div>
+		        <div class="col-md-4 col-sm-12 col-xs-12">
+		        	<div class="quotation-div">
+		        		<i class="fa fa-quote-left fa-3x" aria-hidden="true"></i>
+		        		<hr>
+		        		<p>I would like to say a big thank you to all the team at Dr Michael's Clinic, from the charming and efficient reception staff to all the dental team.</p>
+		        		<h5>ANNA WHITE</h5>
+		        	</div>
+		        </div>
+	        </div>
+	    </div>
+	    <!-- end of container -->
+	 </section>
+	<!-- #FAQs -->
+
+	<!-- Appointment -->
+    <div class="appointment">
+        <div class="container">
+            <div class="row">
+            	<div class="col-md-12">
+            		<h1>Book an <span>appointment</span></h1>
+            		<div class="form-div">
+            			<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); } ?>
+            		</div>
+            	</div>
+            </div>
+        </div>
+    </div><!-- /Appointment -->
 
 <?php
 get_sidebar();

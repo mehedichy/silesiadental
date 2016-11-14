@@ -35,7 +35,7 @@ class wp_themeMods {
 		
 		// Post Thumbnails
 		// 
-		add_theme_support( 'post-thumbnails', array( 'post', 'work' ) );
+		add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
 		
 		// 
 		add_post_type_support( 'page', 'excerpt' );

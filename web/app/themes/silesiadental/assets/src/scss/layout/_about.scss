@@ -1,13 +1,4 @@
-#about-banner {
-	background: linear-gradient(
-                 rgba(20,20,20, .5), 
-                 rgba(20,20,20, .5)),
-                 url(assets/dist/img/about.jpg);
-	height: 25vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
+
 .post-14 {
 	margin-top: -2rem; 
 
@@ -17,6 +8,7 @@
 }
 .about {
 	padding: 60px 0;
+	background-color: #fffefe;
 	.entry-content {
 		padding: 0 18rem;
 		margin-top: -2rem;

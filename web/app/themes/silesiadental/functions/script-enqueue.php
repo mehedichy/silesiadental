@@ -81,6 +81,11 @@ class script_enqueue {
 			'font-icon-fa',
 			get_stylesheet_directory_uri() . '/assets/vendor/font-awesome/css/font-awesome.min.css'
 		);
+		wp_enqueue_style(
+			'Material Icon',
+			'https://fonts.googleapis.com/icon?family=Material+Icons'
+		);
+		
 
 		// wp_enqueue_style( 'theme', get_stylesheet_uri() );
 
