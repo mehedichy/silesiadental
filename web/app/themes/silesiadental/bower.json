@@ -19,7 +19,8 @@
   "dependencies": {
     "bootstrap": "4.0.0-alpha",
     "font-awesome": "4.5.0",
-    "include-media": "1.4.4"
+    "include-media": "1.4.4",
+    "lightbox2": "^2.9.0"
   },
   "devDependencies": {}
 }

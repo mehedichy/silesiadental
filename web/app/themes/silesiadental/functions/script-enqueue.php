@@ -30,6 +30,14 @@ class script_enqueue {
 		);
 
 		wp_enqueue_script(
+			'lightbox',
+			get_stylesheet_directory_uri() . '/assets/vendor/lightbox2/dist/js/lightbox-plus-jquery.js',
+			array(
+				'jquery'
+			)
+		);
+
+		wp_enqueue_script(
 			'bootstrap',
 			'https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
 			array(
@@ -65,6 +73,11 @@ class script_enqueue {
 		wp_enqueue_style(
 			'bootstrap-css',
 			get_stylesheet_directory_uri() . '/assets/vendor/bootstrap/dist/css/bootstrap.min.css'
+		);
+
+		wp_enqueue_style(
+			'lightbox-css',
+			get_stylesheet_directory_uri() . '/assets/vendor/lightbox2/dist/css/lightbox.min.css'
 		);
 
 		wp_enqueue_style(

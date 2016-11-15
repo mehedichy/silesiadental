@@ -1,6 +1,6 @@
 #header-img {
     max-width: 1140px;
-    height: 45vh;
+    height: 400px;
     img {
         width: 100%;
         height: inherit;
@@ -14,12 +14,13 @@
     header.entry-header {
         color: #fff;
         position: absolute;
-        top: 40%;
-        left: 35%;
+        top: 37%;
+        //left: 35%;
 
         h1 {
             text-transform: uppercase;
             font-size: 45px;
+            font-weight: 700;
         }
     }
 }
@@ -122,15 +123,30 @@
     } */
 
     img {
+        max-width: 250px;
         border-radius: 6px;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.188235) 0px 6px 20px 0px;
+        transition: opacity 0.35s, transform 0.35s;
 
         &:hover {
-
+            opacity: 0.5;
         }
     }
 }
 
+.fa.fa-expand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #000;
+    background-color: #fff;
+    padding: 0.5rem;
+    opacity: 0;
+}
+
+.expand:hover > .fa.fa-expand {
+    opacity: 1;
+}
 
 
 /*================= FAQs =================*/
@@ -220,7 +236,7 @@ h4.panel-title {
 /* #bs-collapse icon scale option */
 
 .panel-heading a:before {
-    content: '\e146';
+    content: '\f278';
     position: absolute;
     font-family: 'Material Icons';
     left: 5px;
@@ -248,7 +264,7 @@ h4.panel-title {
 }
 
 #bs-collapse .panel-heading.active a:after {
-    content: '\e909';
+    content: '\f273';
     transform: scale(1);
     transition: all 0.5s;
 }
@@ -300,3 +316,6 @@ h4.panel-title {
         padding-bottom: 2.27rem;
     }
 }
+
+
+// Modal Image

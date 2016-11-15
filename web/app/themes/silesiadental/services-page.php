@@ -91,22 +91,14 @@ get_header(); ?>
 	<section id="service-gallery">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-					<img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/image-1.jpeg">
-				    <!-- <div class="hovereffect">
-				        <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/image-1.jpeg">
-				            <div class="overlay">
-				    								<p> 
-				    									<a href="#">LINK HERE</a>
-				    								</p> 
-				            </div>
-				    </div> -->
+				<div class="col-md-4 col-sm-12">
+					<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
 				</div>
-				<div class="col-md-4">
-					<img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/image-2.jpg">
+				<div class="col-md-4 col-sm-12">
+					<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
 				</div>
-				<div class="col-md-4">
-					<img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/image-3.jpeg">
+				<div class="col-md-4 col-sm-12">
+					<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
 				</div>
 			</div>
 		</div>

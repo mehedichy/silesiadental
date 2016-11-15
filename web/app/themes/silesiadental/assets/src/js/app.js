@@ -49,12 +49,22 @@ jQuery(document).ready(function($){
             .on('hide.bs.collapse', function (a) {
                 $(a.target).prev('.panel-heading').removeClass('active');
             });
+
+
+
+     // Get the modal
+     lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    });
+
             
 
 });
 
 //=== Initialize lightense-images
-window.addEventListener('load', function () {
+/*window.addEventListener('load', function () {
   var el = document.querySelectorAll('img:not(.no-lightense),.lightense');
   Lightense(el);
-}, false);
+}, false);*/
+
