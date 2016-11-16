@@ -91,14 +91,28 @@ get_header(); ?>
 	<section id="service-gallery">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-12">
-					<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
-				</div>
-				<div class="col-md-4 col-sm-12">
-					<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
-				</div>
-				<div class="col-md-4 col-sm-12">
-					<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
+				<div class="col-md-12" style="text-align: center;">
+					<div class="col-md-4 col-sm-12">
+						<div class="box">
+							<div class="overlay">
+								<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<div class="box">
+							<div class="overlay">
+								<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<div class="box">
+							<div class="overlay">
+								<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

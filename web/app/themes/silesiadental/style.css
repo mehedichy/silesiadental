@@ -559,113 +559,41 @@ article#post-12 {
 
 #service-gallery {
   background-color: #f4f4f4;
-  padding: 55px 45px;
-  /* .hovereffect {
-      width: 100%;
-      height: 100%;
-      float: left;
-      overflow: hidden;
-      position: relative;
-      text-align: center;
-      cursor: default;
-      background: #42b078;
-    }
-    
-    .hovereffect .overlay {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      overflow: hidden;
-      top: 0;
-      left: 0;
-      padding: 50px 20px;
-    }
-    
-    .hovereffect img {
-      display: block;
-      position: relative;
-      max-width: none;
-      width: calc(100% + 20px);
-      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-      transition: opacity 0.35s, transform 0.35s;
-      -webkit-transform: translate3d(-10px,0,0);
-      transform: translate3d(-10px,0,0);
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-    }
-    
-    .hovereffect:hover img {
-      opacity: 0.4;
-      filter: alpha(opacity=40);
-      -webkit-transform: translate3d(0,0,0);
-      transform: translate3d(0,0,0);
-    }
-    
-    .hovereffect h2 {
-      text-transform: uppercase;
-      color: #fff;
-      text-align: center;
-      position: relative;
-      font-size: 17px;
-      overflow: hidden;
-      padding: 0.5em 0;
-      background-color: transparent;
-    }
-    
-    .hovereffect h2:after {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background: #fff;
-      content: '';
-      -webkit-transition: -webkit-transform 0.35s;
-      transition: transform 0.35s;
-      -webkit-transform: translate3d(-100%,0,0);
-      transform: translate3d(-100%,0,0);
-    }
-    
-    .hovereffect:hover h2:after {
-      -webkit-transform: translate3d(0,0,0);
-      transform: translate3d(0,0,0);
-    }
-    
-    .hovereffect a, .hovereffect p {
-      color: #FFF;
-      opacity: 0;
-      filter: alpha(opacity=0);
-      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-      transition: opacity 0.35s, transform 0.35s;
-      -webkit-transform: translate3d(100%,0,0);
-      transform: translate3d(100%,0,0);
-    }
-    
-    .hovereffect:hover a, .hovereffect:hover p {
-      opacity: 1;
-      filter: alpha(opacity=100);
-      -webkit-transform: translate3d(0,0,0);
-      transform: translate3d(0,0,0);
-    } */ }
+  padding: 55px 45px; }
   #service-gallery img {
     max-width: 250px;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.188235) 0px 6px 20px 0px;
     transition: opacity 0.35s, transform 0.35s; }
+    @media screen and (max-width: 1024px) {
+      #service-gallery img {
+        max-width: 185px; } }
+    @media screen and (max-width: 768px) {
+      #service-gallery img {
+        max-width: 185px;
+        margin-bottom: 2rem; } }
+    @media (max-width: 33.99em) {
+      #service-gallery img {
+        max-width: 175px;
+        margin-bottom: 2rem; } }
     #service-gallery img:hover {
       opacity: 0.5; }
 
 .fa.fa-expand {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: -33%;
+  left: 43%;
   color: #000;
   background-color: #fff;
-  padding: 0.5rem;
+  padding: 0.9rem;
+  border-radius: 4px;
   opacity: 0; }
 
 .expand:hover > .fa.fa-expand {
   opacity: 1; }
+
+.lb-details {
+  display: none; }
 
 /*================= FAQs =================*/
 #faq {
@@ -711,18 +639,19 @@ h4.panel-title {
 
 .panel-title a {
   display: block;
-  font-size: 20px;
+  font-size: 19px;
   font-family: "OpenSans";
   color: #372f2b;
   line-height: 1.714;
   text-align: left;
   color: #372f2b;
-  padding-left: 40px;
+  padding-left: 75px;
   position: relative;
   font-weight: 400; }
 
 .panel-body {
-  padding-left: 2.7rem; }
+  padding-left: 5.1rem;
+  padding-top: 1.3rem; }
 
 .panel:last-child .panel-heading {
   transition: border-radius 0.3s linear 0.2s; }
@@ -733,14 +662,19 @@ h4.panel-title {
 
 /* #bs-collapse icon scale option */
 .panel-heading a:before {
-  content: '\f278';
+  font-family: "FontAwesome";
+  content: "\f067";
   position: absolute;
-  font-family: 'Material Icons';
-  left: 5px;
-  top: -2px;
-  font-size: 24px;
+  left: 30px;
+  top: 4px;
+  font-size: 15px;
   transition: all 0.5s;
-  transform: scale(1); }
+  transform: scale(1);
+  color: #8a8a8a;
+  background-color: #f6f6f6;
+  padding: 0rem 0.4rem;
+  border-radius: 50%;
+  border: 1px solid #e7e7e7; }
 
 .panel-heading.active a:before {
   content: ' ';
@@ -749,25 +683,26 @@ h4.panel-title {
 
 #bs-collapse .panel-heading a:after {
   content: ' ';
-  font-size: 24px;
+  font-size: 15px;
   position: absolute;
-  font-family: 'Material Icons';
+  font-family: 'FontAwesome';
   left: 5px;
   top: -2px;
   transform: scale(0);
   transition: all 0.5s; }
 
 #bs-collapse .panel-heading.active a:after {
-  content: '\f273';
+  content: '\f068';
   transform: scale(1);
   transition: all 0.5s; }
 
 /* #accordion rotate icon option */
 #accordion .panel-heading a:before {
   content: '\f067';
-  font-size: 24px;
+  font-size: 15px;
   position: absolute;
   font-family: 'FontAwesome';
+  color: #8a8a8a;
   right: 5px;
   top: 10px;
   transform: rotate(180deg);
@@ -782,6 +717,18 @@ h4.panel-title {
   text-align: center;
   margin: 5rem 5rem 5rem 3.5rem;
   width: 250px; }
+  @media screen and (max-width: 962px) {
+    .quotation-div {
+      margin: 5rem 5rem 5rem -0.5rem; } }
+  @media screen and (max-width: 620px) {
+    .quotation-div {
+      margin: 5rem 5rem 5rem 5.5rem; } }
+  @media screen and (max-width: 544px) {
+    .quotation-div {
+      margin: 5rem 5rem 5rem 4.5rem; } }
+  @media screen and (max-width: 400px) {
+    .quotation-div {
+      margin: 5rem 5rem 5rem 2.5rem; } }
   .quotation-div .fa-quote-left {
     color: #fff;
     background-color: #000;
@@ -798,6 +745,34 @@ h4.panel-title {
   .quotation-div h5 {
     color: #fff;
     padding-bottom: 2.27rem; }
+
+.box {
+  width: 250px;
+  margin: 0 auto; }
+
+.overlay {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 6px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity .25s ease; }
+  @media screen and (max-width: 1024px) {
+    .overlay {
+      max-width: 185px;
+      height: auto; } }
+  @media screen and (max-width: 768px) {
+    .overlay {
+      max-width: 185px;
+      margin-bottom: 2rem;
+      height: 133px; } }
+  @media (max-width: 33.99em) {
+    .overlay {
+      max-width: 175px;
+      max-height: 126px;
+      margin-bottom: 2rem; } }
+
+.box:hover .overlay {
+  opacity: 1; }
 
 .post-14 {
   margin-top: -2rem; }
