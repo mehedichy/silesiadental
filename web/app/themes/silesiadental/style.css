@@ -489,6 +489,9 @@ article#post-12 {
     padding-left: 140px;
     font-size: 14px;
     text-align: center; }
+    @media (max-width: 47.99em) {
+      .pre-footer .logo-div {
+        padding-top: 1.3rem; } }
     .pre-footer .logo-div p {
       font-family: adam-pro;
       font-size: 13px;
@@ -531,7 +534,9 @@ article#post-12 {
     text-transform: uppercase;
     text-align: center;
     padding-top: 1.5em;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    padding-right: 20px;
+    padding-left: 20px; }
 
 /* /Footer */
 #header-img {
@@ -562,8 +567,10 @@ article#post-12 {
   padding: 55px 45px; }
   #service-gallery img {
     max-width: 250px;
+    height: 188px;
+    height: auto;
     border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.188235) 0px 6px 20px 0px;
+    box-shadow: 0px 0px 4.75px 0.25px rgba(0, 0, 0, 0.098);
     transition: opacity 0.35s, transform 0.35s; }
     @media screen and (max-width: 1024px) {
       #service-gallery img {
@@ -571,10 +578,12 @@ article#post-12 {
     @media screen and (max-width: 768px) {
       #service-gallery img {
         max-width: 185px;
+        height: 133px;
         margin-bottom: 2rem; } }
     @media (max-width: 33.99em) {
       #service-gallery img {
         max-width: 175px;
+        max-height: 126px;
         margin-bottom: 2rem; } }
     #service-gallery img:hover {
       opacity: 0.5; }
@@ -774,6 +783,18 @@ h4.panel-title {
 .box:hover .overlay {
   opacity: 1; }
 
+.page-id-10 #service-gallery, .page-id-10 #faq {
+  display: none; }
+
+.page-id-10 table {
+  display: none; }
+
+.page-id-10 .tmm.tmm_last_row_centered.tmm_silesia-team {
+  margin-top: -7rem; }
+
+.b-link-fade .b-wrapper, .b-link-fade .b-top-line {
+  background: rgba(0, 0, 0, 0.5) !important; }
+
 .post-14 {
   margin-top: -2rem; }
   .post-14 header {
@@ -795,19 +816,31 @@ h4.panel-title {
       .about .entry-content {
         padding: 0 3rem; } }
     .about .entry-content h2 {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 700;
       font-size: 40px;
-      font-family: "AcuminPro";
+      line-height: 1.5;
+      -webkit-font-feature-settings: "kern" 1;
+      text-rendering: optimizeLegibility;
       color: #303030;
       line-height: 0.908; }
     .about .entry-content h4 {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 700;
       font-size: 22px;
-      font-family: "AcuminPro Regular";
+      line-height: 1.5;
+      -webkit-font-feature-settings: "kern" 1;
+      text-rendering: optimizeLegibility;
       color: #303030;
       line-height: 1.65;
       text-align: left; }
     .about .entry-content p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 700;
       font-size: 16px;
-      font-family: "AcuminPro Regular";
+      line-height: 1.5;
+      -webkit-font-feature-settings: "kern" 1;
+      text-rendering: optimizeLegibility;
       color: #303030;
       line-height: 1.5;
       text-align: left; }
@@ -836,11 +869,23 @@ h4.panel-title {
       padding: 0; }
     .page-appointment .info-div .media {
       overflow: initial; }
+      .page-appointment .info-div .media:first-child .media-left {
+        padding-right: 30px; }
+      .page-appointment .info-div .media .media-left {
+        padding-right: 35px; }
     .page-appointment .info-div .media:first-child {
-      margin-top: 9px; }
+      margin-top: 9px;
+      margin-left: -5px; }
 
 #contact-page header.entry-header {
-  display: none; }
+  position: absolute;
+  top: 37%;
+  left: 9%; }
+  #contact-page header.entry-header h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 700; }
 
 #contact-form {
   background-color: #ebebeb;
@@ -871,8 +916,7 @@ h4.panel-title {
     transition: all .5s ease-in-out; }
     #contact-form .field-wrap input[type="button"]:hover {
       background: #91a3b3;
-      color: #fff;
-      border-radius: 14px !important; }
+      color: #fff; }
 
 /* Slider */
 /* Header Styles */
@@ -1174,8 +1218,6 @@ input {
     padding-top: 10px;
     margin-bottom: 50px;
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
-    .services .services-box:hover {
-      box-shadow: 0 0 15px #2C3E50; }
     .services .services-box img {
       display: block;
       margin-left: auto;
@@ -1471,8 +1513,7 @@ input#nf-field-4 {
   transition: all .5s ease-in-out; }
   input#nf-field-4:hover {
     background: #91a3b3;
-    color: #fff;
-    border-radius: 14px !important; }
+    color: #fff; }
 
 .pika-single.is-bound {
   width: 271px; }

@@ -36,8 +36,10 @@
 
     img {
         max-width: 250px;
+        height: 188px;
+        height: auto;
         border-radius: 6px;
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.188235) 0px 6px 20px 0px;
+        box-shadow: 0px 0px 4.75px 0.25px rgba(0, 0, 0, 0.098);
         transition: opacity 0.35s, transform 0.35s;
 
         @media screen and (max-width: 1024px) {
@@ -46,12 +48,14 @@
 
         @media screen and (max-width: 768px) {
             max-width: 185px;
+            height: 133px;
             margin-bottom: 2rem;
         }
 
         // Below 34em (544px)
         @include media("<sm") {
             max-width: 175px;
+            max-height: 126px;
             margin-bottom: 2rem;
         }
 
@@ -306,6 +310,24 @@ h4.panel-title {
     }
 }
 
+//Gallery
 .box:hover .overlay {
     opacity:1;
+}
+
+
+// Team Member Page
+.page-id-10 {
+
+    #service-gallery, #faq {
+        display: none;
+    }
+
+    table {
+        display: none;
+    }
+
+    .tmm.tmm_last_row_centered.tmm_silesia-team {
+        margin-top: -7rem;
+    }
 }

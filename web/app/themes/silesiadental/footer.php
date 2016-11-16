@@ -14,45 +14,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <ul>
+                    <ul style="padding-top: 1rem;">
                         <li>
                             <a href="/cosmetic-dentistry">Cosmetic Dentistry</a>
                             <hr>
                         </li>
                         <li>
-                            <a href="#">General Dentistry</a>
+                            <a href="/maintaining-teeth">Maintaining Teeth</a>
                             <hr>
                         </li>
                         <li>
-                            <a href="/orthodontics">Orthodontics</a>
-                            <hr>
-                        </li>
-                        <li>
-                            <a href="#">Pediatric</a>
-                            <hr>
-                        </li>
-                        <li>
-                            <a href="#">Implants</a>
+                            <a href="/repairing-teeth">Repairing Teeth</a>
                             <hr>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4 second-div-links">
-                    <ul>
+                    <ul style="padding-top: 1rem;">
                         <li>
-                            <a href="#">preventative</a>
+                            <a href="/orthodontics">Orthodontics</a>
                             <hr>
                         </li>
                         <li>
-                            <a href="#">prosthodontics/ restorate</a>
+                            <a href="/replacing-teeth">Replacing Teeth</a>
                             <hr>
                         </li>
                         <li>
-                            <a href="/removing-teeth">oral surgery</a>
-                            <hr>
-                        </li>
-                        <li>
-                            <a href="#">endodontics</a>
+                            <a href="/removing-teeth">Removing Teeth</a>
                             <hr>
                         </li>
                     </ul>

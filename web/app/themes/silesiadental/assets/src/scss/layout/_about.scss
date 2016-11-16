@@ -30,23 +30,20 @@
 
 
 		h2 {
-			font-size: 40px;
-			font-family: "AcuminPro";
+			@include entry-title(40px);
 			color: #303030;
 			line-height: 0.908;
 		}
 
 		h4 {
-			font-size: 22px;
-			font-family: "AcuminPro Regular";
+			@include entry-title(22px);
 			color: #303030;
 			line-height: 1.65;
 			text-align: left;
 		}
 
 		p {
-			font-size: 16px;
-			font-family: "AcuminPro Regular";
+			@include entry-title(16px);
 			color: #303030;
 			line-height: 1.5;
 			text-align: left;
@@ -92,10 +89,21 @@
 
 		.media {
 			overflow: initial;
+
+			&:first-child {
+				.media-left {
+					padding-right: 30px;
+				}
+			}
+
+			.media-left {
+				padding-right: 35px;
+			}
 		}
 
 		.media:first-child {
 		    margin-top: 9px;
+		    margin-left: -5px;
 		}
 	}
 }

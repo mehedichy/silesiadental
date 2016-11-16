@@ -1,6 +1,15 @@
 #contact-page {
 	header.entry-header {
-		display: none;
+		position: absolute;
+    	top: 37%;
+    	left: 9%;
+
+    	h1 {
+    		color: #fff;
+    		text-transform: uppercase;
+		    font-size: 45px;
+		    font-weight: 700;
+    	}
 	}
 }
 #contact-form {
@@ -39,7 +48,6 @@
 	    &:hover {
 	      background: #91a3b3;
 	      color: #fff;
-	      border-radius: 14px !important;
 	    }
 	}
 }

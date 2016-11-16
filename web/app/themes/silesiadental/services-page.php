@@ -95,21 +95,21 @@ get_header(); ?>
 					<div class="col-md-4 col-sm-12">
 						<div class="box">
 							<div class="overlay">
-								<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
+								<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/service-1.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/service-1.jpg"></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-12">
 						<div class="box">
 							<div class="overlay">
-								<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
+								<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/service-2.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/service-2.jpg"></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-12">
 						<div class="box">
 							<div class="overlay">
-								<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/slider.jpg"></a>
+								<a class="expand" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/service-3.jpg" data-lightbox="roadtrip"><i class="fa fa-expand" aria-hidden="true"></i><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/service-3.jpg"></a>
 							</div>
 						</div>
 					</div>
