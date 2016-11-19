@@ -795,6 +795,22 @@ h4.panel-title {
 .b-link-fade .b-wrapper, .b-link-fade .b-top-line {
   background: rgba(0, 0, 0, 0.5) !important; }
 
+.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+  content: "\f065";
+  color: #a4a4a4;
+  background-color: #ffffff; }
+
+.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+  content: "\f065"; }
+
+.fa-picture-o:before {
+  content: "\f065";
+  padding: 0.5rem 0.8rem;
+  border-radius: 2px; }
+
+.wl-gallery .fa-2x {
+  font-size: 1.3rem !important; }
+
 .post-14 {
   margin-top: -2rem; }
   .post-14 header {
