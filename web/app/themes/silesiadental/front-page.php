@@ -7,7 +7,7 @@
  * @package Dawn
  */
 
-get_header(); ?>
+get_header(); /* ?>
 
 	<!-- Slider -->
     <div class="container-fluid">
@@ -28,7 +28,7 @@ get_header(); ?>
                         <!-- Static Header -->
                         <div class="header-text hidden-xs">
                             <div class="col-md-6">
-                                <h2>Fast & effective</h2>
+                                <h2>Fast &amp; effective</h2>
                                 <h4>teeth whitening system</h4>
                                 <p>Zoom professional whitening is the most requested whitening procedure by patients
                                 because it's proven to be safe, effective and conveniently fast.</p>
@@ -41,7 +41,7 @@ get_header(); ?>
                         "<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/teeth.jpg" class="no-lightense"> <!-- Static Header -->
                         <div class="header-text hidden-xs">
                             <div class="col-md-6">
-                                <h2>Fast & effective</h2>
+                                <h2>Fast &amp; effective</h2>
                                 <h4>teeth whitening system</h4>
                                 <p>Zoom professional whitening is the most requested whitening procedure by patients
                                 because it's proven to be safe, effective and conveniently fast.</p>
@@ -54,7 +54,7 @@ get_header(); ?>
                         "<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/smile.jpg" class="no-lightense"> <!-- Static Header -->
                         <div class="header-text hidden-xs">
                             <div class="col-md-6">
-                                <h2>Fast & effective</h2>
+                                <h2>Fast &amp; effective</h2>
                                 <h4>teeth whitening system</h4>
                                 <p>Zoom professional whitening is the most requested whitening procedure by patients
                                 because it's proven to be safe, effective and conveniently fast.</p>
@@ -152,7 +152,7 @@ get_header(); ?>
                 <div class="col-lg-3 col-sm-6">
                     <div class="services-box">
                         <img class="no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/crown.png">
-                        <h2><span>Crowns</span> & Bridges</h2>
+                        <h2><span>Crowns</span> &amp; Bridges</h2>
                         <p>Crowns are made to match the color of your natural
                         teeth, and it trengthens an impaired tooth.</p>
                         <a href="/replacing-teeth/#crowns-bridges" class="btn btn-lg btn-readmore"><span>Read more</span></a>
@@ -202,6 +202,6 @@ get_header(); ?>
         </div>
     </div><!-- /Highlights -->
 
-<?php
+<?php */
 get_sidebar();
 get_footer();

@@ -30,20 +30,20 @@
 
 
 		h2 {
-			@include entry-title(40px);
+			// @include entry-title(40px);
 			color: #303030;
 			line-height: 0.908;
 		}
 
 		h4 {
-			@include entry-title(22px);
+			// @include entry-title(22px);
 			color: #303030;
 			line-height: 1.65;
 			text-align: left;
 		}
 
 		p {
-			@include entry-title(16px);
+			// @include entry-title(16px);
 			color: #303030;
 			line-height: 1.5;
 			text-align: left;

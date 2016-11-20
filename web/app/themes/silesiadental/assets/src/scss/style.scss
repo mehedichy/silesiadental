@@ -32,7 +32,6 @@ Copyright 2016 Techtonix
 @import "base/typography";
 
 // Layout
-@import "layout/body";
 @import "layout/header";
 @import "layout/aside";
 @import "layout/main";
@@ -51,7 +50,7 @@ Copyright 2016 Techtonix
 @import "components/services";
 @import "components/highlights";
 @import "components/wp-ninjaforms";
-@import "components/media-query";
+// @import "components/media-query";
 
 // Shame
 @import "shame";

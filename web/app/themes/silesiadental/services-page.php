@@ -78,9 +78,9 @@ get_header(); ?>
 				get_template_part( 'template-parts/content', 'page' );
 
 				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
+				// if ( comments_open() || get_comments_number() ) :
+				// 	comments_template();
+				// endif;
 
 			endwhile; // End of the loop.
 			?>
@@ -159,7 +159,7 @@ get_header(); ?>
 		                <div class="panel">
 		                    <div class="panel-heading">
 		                        <h4 class="panel-title">
-						        	<a data-toggle="collapse" data-parent="#bs-collapse" href="#three">CPediatric Dentistry FAQs</a>
+						        	<a data-toggle="collapse" data-parent="#bs-collapse" href="#three">Pediatric Dentistry FAQs</a>
 						      	</h4>
 		                    </div>
 		                    <div id="three" class="panel-collapse collapse">

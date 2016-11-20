@@ -3,7 +3,7 @@ Contributors: wpninjasllc, kstover, jameslaws, kbjohnson90, klhall1987, wpnzach,
 Tags: form, forms, contact form, custom form, form builder, form creator, form manager, form creation, contact forms, custom forms, forms builder, forms creator, forms manager, forms creation, form administration,
 Requires at least: 4.4
 Tested up to: 4.6.1
-Stable tag: 3.0.13
+Stable tag: 3.0.15
 License: GPLv2 or later
 
 Drag and drop fields in an intuitive UI to create create contact forms, email subscription forms, order forms, payment forms, send emails and more!
@@ -102,6 +102,43 @@ For help and video tutorials, please visit our website: [Ninja Forms Documentati
 
 == Upgrade Notice ==
 
+= 3.0.15 (09 November 2016) =
+
+*Bugs:*
+
+* Fixed a bug with custom field processing not updating field data properly.
+
+*Bugs:*
+
+* Fixed a bug with input masks that prevented custom masks from working properly.
+
+*Changes:*
+
+* Added better support for extensions interacting with field duplication in the builder.
+
+== Changelog ==
+
+= 3.0.15 (09 November 2016) =
+
+*Bugs:*
+
+* Fixed a bug with custom field processing not updating field data properly.
+
+*Changes:*
+
+* Added better support for extensions interacting with field duplication in the builder.
+
+= 3.0.14 (03 November 2016) =
+
+*Bugs:*
+
+* Fixed a bug with input masks that prevented custom masks from working properly.
+
+*Changes:*
+
+* Added per-form label settings under Advanced.
+* Re-instated the changes and bug-fixes in version 3.0.12 (See below)
+
 = 3.0.13 (01 November 2016) =
 
 *Bugs:*
@@ -124,20 +161,6 @@ For help and video tutorials, please visit our website: [Ninja Forms Documentati
 * Added empty ninja_forms_get_form_by_id() function to avoid fatal errors.
 * Performance enhancements for form display and submission processing for long forms.
 * Added a field ID specific field class for styling.
-
-
-= 3.0.11 (18 October 2016) =
-
-*Bugs:*
-
-* Fixed a bug with overly strict error catching that might stall form submission.
-
-*Changes:*
-
-* Updated field validation to not check required settings on unknown field types.
-* Added a process to remove empty fields without field keys.
-
-== Changelog ==
 
 = 3.0.11 (18 October 2016) =
 

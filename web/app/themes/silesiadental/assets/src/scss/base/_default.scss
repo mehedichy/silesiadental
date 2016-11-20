@@ -1,7 +1,31 @@
 body {
-	@include primary-font(14px);
+	@include secondary-font();
+	font-size: 1rem;
 	color: $body-color;
 	hyphens: auto;
 	word-wrap: break-word;
 	background-color: $body-bg;
+	background: url('assets/img/bg.png') repeat;
 	}
+
+.body-container {
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+	padding-left: 0;
+	padding-right: 0;
+
+	@include media("<lg") {
+		max-width: 72rem;
+	}
+}
+
+
+::selection {
+	background: #2C3A49;
+	color: #fff;
+	text-shadow: 0 0 transparent;
+}
+::-moz-selection {
+	background: #2C3A49;
+	color: #fff;
+	text-shadow: 0 0 transparent;
+}

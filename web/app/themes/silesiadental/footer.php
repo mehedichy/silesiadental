@@ -8,7 +8,7 @@
  *
  * @package Dawn
  */
-
+/*
 ?>
 	<div class="pre-footer">
         <div class="container">
@@ -70,7 +70,14 @@
 	</footer>
 </div><!-- #page -->
 
-<?php wp_footer(); ?>
+<?php */ ?>
+
+<script src="https://use.typekit.net/jgv2rqp.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<?php
+
+wp_footer(); ?>
 
 </body>
 </html>

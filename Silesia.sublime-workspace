@@ -4,12 +4,40 @@
 		"selected_items":
 		[
 			[
-				"pa",
-				"padding: "
+				"tet",
+				"text-align: "
+			],
+			[
+				"trans",
+				"transition: "
+			],
+			[
+				"mar",
+				"margin-right: "
+			],
+			[
+				"ma",
+				"margin: "
+			],
+			[
+				"marg",
+				"margin-right: "
 			],
 			[
 				"text",
-				"text-transform: "
+				"text-align: "
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"max",
+				"max-width: "
+			],
+			[
+				"pa",
+				"padding: "
 			],
 			[
 				"margi",
@@ -18,14 +46,6 @@
 			[
 				"padd",
 				"padding: "
-			],
-			[
-				"marg",
-				"margin-left: "
-			],
-			[
-				"mar",
-				"margin-bottom: "
 			],
 			[
 				"re",
@@ -52,37 +72,38 @@
 	"buffers":
 	[
 		{
-			"file": "wp-content/themes/silesiadental/assets/src/scss/style.scss",
+			"file": "web/app/themes/silesiadental/assets/src/scss/layout/_header.scss",
 			"settings":
 			{
-				"buffer_size": 838,
+				"buffer_size": 7017,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-config.php",
+			"file": "web/app/themes/silesiadental/header.php",
 			"settings":
 			{
-				"buffer_size": 2985,
-				"line_ending": "Windows"
+				"buffer_size": 2428,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<?php\n/**\n * The base configuration for WordPress\n *\n * The wp-config.php creation script uses this file during the\n * installation. You don't have to use the web site, you can\n * copy this file to \"wp-config.php\" and fill in the values.\n *\n * This file contains the following configurations:\n *\n * * MySQL settings\n * * Secret keys\n * * Database table prefix\n * * ABSPATH\n *\n * @link https://codex.wordpress.org/Editing_wp-config.php\n *\n * @package WordPress\n */\n\n// ** MySQL settings - You can get this info from your web host ** //\n/** The name of the database for WordPress */\ndefine('DB_NAME', 'database_name_here');\n\n/** MySQL database username */\ndefine('DB_USER', 'username_here');\n\n/** MySQL database password */\ndefine('DB_PASSWORD', 'password_here');\n\n/** MySQL hostname */\ndefine('DB_HOST', 'localhost');\n\n/** Database Charset to use in creating database tables. */\ndefine('DB_CHARSET', 'utf8');\n\n/** The Database Collate type. Don't change this if in doubt. */\ndefine('DB_COLLATE', '');\n\n/**#@+\n * Authentication Unique Keys and Salts.\n *\n * Change these to different unique phrases!\n * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}\n * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.\n *\n * @since 2.6.0\n */\ndefine('AUTH_KEY',         'put your unique phrase here');\ndefine('SECURE_AUTH_KEY',  'put your unique phrase here');\ndefine('LOGGED_IN_KEY',    'put your unique phrase here');\ndefine('NONCE_KEY',        'put your unique phrase here');\ndefine('AUTH_SALT',        'put your unique phrase here');\ndefine('SECURE_AUTH_SALT', 'put your unique phrase here');\ndefine('LOGGED_IN_SALT',   'put your unique phrase here');\ndefine('NONCE_SALT',       'put your unique phrase here');\n\n/**#@-*/\n\n/**\n * WordPress Database Table prefix.\n *\n * You can have multiple installations in one database if you give each\n * a unique prefix. Only numbers, letters, and underscores please!\n */\n$table_prefix  = 'wp_';\n\n/**\n * For developers: WordPress debugging mode.\n *\n * Change this to true to enable the display of notices during development.\n * It is strongly recommended that plugin and theme developers use WP_DEBUG\n * in their development environments.\n *\n * For information on other constants that can be used for debugging,\n * visit the Codex.\n *\n * @link https://codex.wordpress.org/Debugging_in_WordPress\n */\ndefine('WP_DEBUG', false);\n\n/* That's all, stop editing! Happy blogging. */\n\n/** Absolute path to the WordPress directory. */\nif ( !defined('ABSPATH') )\n	define('ABSPATH', dirname(__FILE__) . '/');\n\n/** Sets up WordPress vars and included files. */\nrequire_once(ABSPATH . 'wp-settings.php');\n",
-			"file": "wp-config-sample.php",
-			"file_size": 2853,
-			"file_write_time": 130947335060000000,
+			"file": "web/app/themes/silesiadental/functions/wp-navigation-walker.php",
 			"settings":
 			{
-				"buffer_size": 2764,
-				"line_ending": "Windows"
+				"buffer_size": 3017,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/silesiadental/functions.php",
+			"file": "web/app/themes/silesiadental/functions.php",
 			"settings":
 			{
-				"buffer_size": 713,
+				"buffer_size": 1473,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -131,15 +152,64 @@
 	"expanded_folders":
 	[
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental/assets",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental/assets/src/scss",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental/functions"
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/config",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/config/environments",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/js",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/base",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/helpers",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/layout",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/vendor/font-awesome",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/vendor/font-awesome/css",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/vendor/font-awesome/fonts",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/functions"
 	],
 	"file_history":
 	[
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/vendor/bootstrap/dist/css/bootstrap.css",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/config/environments/development.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/functions/wp-clean.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/header.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/js/app.js",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/functions/wp-theme.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/functions/script-enqueue.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/style.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_social.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/base/_default.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/_blank.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_media-query.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/base/_typography.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/layout/_header.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/layout/_about.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_wp-ninjaforms.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/bower.json",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/helpers/_mixins.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/fonts/adam.cg.pro-webfont.svg",
+		"/C/Users/sazad/Downloads/webfontkit-20161119-023055/stylesheet.css",
+		"/C/Users/sazad/Downloads/webfontkit-20161119-023055/specimen_files/specimen_stylesheet.css",
+		"/C/Users/sazad/Downloads/webfontkit-20161119-023003/stylesheet.css",
+		"/C/Users/sazad/Downloads/webfontkit-20161119-023003/adam.cg_pro-demo.html",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/helpers/_variables.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/front-page.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/layout/_body.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/layout/_main.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/footer.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/services-page.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/template-parts/content-page.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/composer.json",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-cli.yml",
+		"/C/Users/sazad/Documents/MEGA/html/firebase/public/index.html",
+		"/C/Users/sazad/Downloads/_wp-config.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/.env",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental/functions.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental/assets/src/scss/style.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-config.php",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesiadental/functions/wp-post-types.php",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/assets/src/js/app.js",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/wp-content/themes/silesia/package.json",
@@ -229,37 +299,19 @@
 		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/custom-modules.php",
 		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions--.php",
 		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions/wp-widgets.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/scss/base/_typography.scss",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/bower.json",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/.bowerrc",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions/script-enqueue.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/scss/style.scss",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/style.css",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/.gitignore",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions/wp-theme.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions/wp-post-types.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/includes/functions/sanitization.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/includes/builder/layouts.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/single-project.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/style.css",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/includes/builder/functions.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/includes/builder/framework.php",
-		"/C/Users/sazad/AppData/Local/Temp/fz3temp-1/.htaccess",
-		"/C/Users/sazad/AppData/Local/Temp/fz3temp-1/functions.php",
-		"/C/Users/sazad/Downloads/php.ini",
-		"/C/Users/sazad/AppData/Local/Temp/fz3temp-1/wp-config.php",
-		"/C/Users/sazad/AppData/Local/Temp/fz3temp-1/gd-config.php",
-		"/C/Users/sazad/Mega/html/pack2go.ae/wp-config.php"
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/scss/base/_typography.scss"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\silesiadental.com\\web\\app\\themes\\silesiadental\\assets\\vendor",
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\silesiadental.com\\web\\app\\themes\\silesiadental\\assets\\src\\scss",
 			"C:\\Users\\sazad\\Documents\\MEGA\\html\\blackboard.com",
 			"C:\\Users\\sazad\\Documents\\MEGA\\html\\blackboard.com\\public",
 			"C:\\Users\\sazad\\Documents\\MEGA\\html\\snfgroup.com\\README",
@@ -277,6 +329,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"collapsing",
+			"social-icon",
+			"body-container",
+			"primary",
+			"heading",
+			"headng",
+			"primary-font",
+			"bg.png",
+			"edit",
 			"usebanner",
 			"sass",
 			"sasss",
@@ -345,32 +406,33 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "wp-content/themes/silesiadental/assets/src/scss/style.scss",
+					"file": "web/app/themes/silesiadental/assets/src/scss/layout/_header.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 838,
+						"buffer_size": 7017,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24,
-								24
+								1259,
+								1259
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2148.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -378,75 +440,77 @@
 				},
 				{
 					"buffer": 1,
-					"file": "wp-config.php",
+					"file": "web/app/themes/silesiadental/header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2985,
+						"buffer_size": 2428,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								923,
-								923
+								1830,
+								1830
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "wp-config-sample.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2764,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								754,
-								754
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1242.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "wp-content/themes/silesiadental/functions.php",
+					"buffer": 2,
+					"file": "web/app/themes/silesiadental/functions/wp-navigation-walker.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 713,
+						"buffer_size": 3017,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								713,
-								713
+								701,
+								701
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "web/app/themes/silesiadental/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								398,
+								398
 							]
 						],
 						"settings":
