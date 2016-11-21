@@ -17,6 +17,9 @@
 
 	@mixin secondary-font() {
 		font-family: "acumin-pro",sans-serif;
+		font-weight: normal;
+		-webkit-font-feature-settings: "kern" 1;
+		text-rendering: optimizeLegibility;
 	}
 
 

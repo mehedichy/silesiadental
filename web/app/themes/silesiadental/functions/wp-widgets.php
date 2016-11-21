@@ -23,6 +23,15 @@ class wp_widgets {
 			'after_title'   => '</h2>',
 		));
 
+		register_sidebar(array(
+			'name'          => 'Appointment Form',
+			'id'            => 'appointment',
+			'before_widget' => '',
+			'after_widget'  => '',
+			'before_title'  => '',
+			'after_title'   => '',
+		));
+
 	}
 
 }

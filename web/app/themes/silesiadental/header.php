@@ -25,7 +25,7 @@
 <body <?php body_class(); ?>>
 
 	<div class="container body-container">
-		<header>
+		<header class="page-header">
 			<div class="banner">
 				<div class="container">
 					<div class="branding">
@@ -79,5 +79,4 @@
 				?>
 				</div>
 			</div>
-			
 		</header>

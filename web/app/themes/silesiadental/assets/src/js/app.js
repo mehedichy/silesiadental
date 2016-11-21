@@ -1,9 +1,5 @@
 jQuery(document).ready(function($){
 
-	// $("ul.main-menu > li > a.menu-item-has-children").click(function() {
-
-	// });
-
 	function initMainNavigation( container ) {
 
 		// Add dropdown toggle that display child menu items.

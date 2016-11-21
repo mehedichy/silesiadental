@@ -1,6 +1,7 @@
 body {
   font-family: "acumin-pro",sans-serif;
   font-size: 1rem;
+  font-weight: normal;
   -webkit-hyphens: auto;
      -moz-hyphens: auto;
           hyphens: auto;
@@ -9,6 +10,8 @@ body {
   background: url("assets/img/bg.png") repeat; 
   background-color: #fff;
 
+  -webkit-font-feature-settings: "kern" 1;
+  text-rendering: optimizeLegibility;
       -ms-hyphens: auto;
 }
 
@@ -20,7 +23,7 @@ body {
 }
 @media (max-width: 61.99em) {
   .body-container {
-    max-width: 72rem;
+    max-width: 70rem;
   }
 }
 
