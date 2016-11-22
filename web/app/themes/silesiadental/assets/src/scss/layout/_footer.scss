@@ -1,89 +1,69 @@
-/* Footer */
-.pre-footer {
-    background: #9fb1bf;
-    padding: 42px 94px 44px 46px;
-    text-transform: uppercase;
-    color: $color_white;
+//
+// Footer
+// -----------------------------------------------------------------------------
+//
+section.pre-footer {
+	background: #9fb1bf;
+	padding: 40px 0;
+	text-transform: uppercase;
+	color: #FFF;
 
-    .second-div-links {
-        padding-left: 96px;
-    }
-    .logo-div {
-        padding-left: 140px;
-        font-size: 14px;
-        text-align: center;
+	.container {
+		padding-left: 2.8rem;
+		padding-right: 2.8rem;
+	}
 
-        // Below 48em (768px)
-        @include media("<md") {
-          padding-top: 1.3rem;
-        }
-    
-    p {
-        font-family: adam-pro;
-        font-size: 13px;
-        color: #fff;
-        line-height: 26.35px;
-     }
-    }
+	.row {
+		margin-left: -2.8rem;
+		margin-right: -2.8rem;
+	}
 
-    ul {
-        list-style-type: none;
-        padding-left: 0;
-    
-    li {
+	div[class^="col-"] {
+		padding-left: 2.8rem;
+		padding-right: 2.8rem;
+	}
 
-      hr {
-        margin-top: 11px;
-        height: 0;
-        border: 0;
-        width: 100%;
-        border-bottom: 1px solid #eee;
-        margin-bottom: 0 !important;
-     }
-     a {
-        font-family: adam-pro;
-        font-size: 13px;
-        color: #fff;
-     }
+	ul.footer-menu {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
 
-      a:hover {
-        text-decoration: none;
-      }
-     }
-    }  
-    
-    img {
-        border-bottom: 1.3px solid #05c0e1;
-    }
+		li {
+			margin: 0;
+			margin-top: 20px;
+			padding: 0;
+			border-bottom: 1px solid #ddd;
 
-    .footer-social-icon li{
-        display: inline-flex;
-        padding-right: 8px;
-        
-        img {
-            border-bottom: none !important;
-        }
-    }
-}
+			&:first-child {
+				margin-top: 0;
+			}
 
-.footer {
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  background-color: #8498A8;
-  text-align: center;
-  p {
-    font-family: adam-pro;
-    font-size: 12px;
-    color: #ACBFCE;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 1.5em;
-    padding-bottom: 0;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+			a {
+				@include heading-font();
+				font-size: 13px;
+				line-height: 2;
+				color: #FFF;
+				padding: 0 0 5px 0;
+				display: block;
+			}
+		}
+	}
 
 }
 
-/* /Footer */
+footer.footer {
+	background-color: #8498a9;
+	text-align: center;
+	padding: 0.6rem;
+
+	p {
+		@include heading-font();
+		font-size: 12px;
+		color: #b5c8d8;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+
+}

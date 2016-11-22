@@ -63,18 +63,18 @@
 				</button>
 
 				<div class="menu-scaffold nav-collapse collapse clearfix">
-				  <?php
-				    wp_nav_menu( array(
-				    	'menu'              => 'primary-menu',
-					    'theme_location'    => 'primary-menu',
-					    'container'     	=> false,
-					    'container_id'      => '',
-					    'container_class'   => '',
-					    'menu_class'        => 'menu main-menu menu-depth-0 menu-even',
-					    'echo'          	=> true,
-					    'items_wrap'        => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-					    'depth'        		=> 10,
-					    'walker'        	=> new Navigation_Walker
+				<?php
+					wp_nav_menu( array(
+						'menu'              => 'primary-menu',
+						'theme_location'    => 'primary-menu',
+						'container'     	=> false,
+						'container_id'      => '',
+						'container_class'   => '',
+						'menu_class'        => 'menu main-menu menu-depth-0 menu-even',
+						'echo'          	=> true,
+						'items_wrap'        => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+						'depth'        		=> 10,
+						'walker'        	=> new Navigation_Walker
 					));
 				?>
 				</div>

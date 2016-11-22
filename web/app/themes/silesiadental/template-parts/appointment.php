@@ -2,7 +2,7 @@
 	<section class="appointment">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-xs-12 col-lg-6 col-lg-offset-3">
 					<h1>Book an <span>appointment</span></h1>
 					<div class="form-div">
 						<?php // if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); } ?>

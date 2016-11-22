@@ -12,6 +12,7 @@ body {
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
 	padding-left: 0;
 	padding-right: 0;
+	background: #FFF;
 
 	@include media("<lg") {
 		max-width: 70rem;

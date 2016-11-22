@@ -1,89 +1,45 @@
-/* Services */
-.services {
-	background: #fff;
-	padding: 67px 40px 0 28px;
-  text-align: center;
+// 
+// Services
+// template-parts/services.php 
+// 
 
-  .services-box {
-    padding-top: 10px;
-    margin-bottom: 50px;
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+section.services {
+	padding: 20px 0 60px 0;
 
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 0;
-      padding-bottom: 43px;
-    }
+	.services-box {
+		margin: 40px 0 0 0;
+		padding: 0;
+		text-align: center;
 
-    h2 {
-      color: #1BAFEC;
-      font-size: 24px;
-      text-align: center;
-      padding-bottom: 21px;
-      margin-bottom: 0;
-      margin-top: 0;
+		img {
+			display: block;
+			margin: 0 auto;
+			padding: 0 0 20px 0;
+		}
 
-      span {
-          font-weight: bold;
-      }
-    }
+		h2 {
+			color: #1BAFEC;
+			font-size: 24px;
+			text-align: center;
+			margin: 0;
+			padding: 0 0 20px 0;
 
-    p {
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 18px;
-      text-align: center;
-      padding-bottom: 29px;
-      margin-bottom: 0;
-      margin-top: 0;
-    }
+			span {
+				font-weight: bold;
+			}
+		}
 
-    .btn-readmore {
-      font-family: adam-pro;
-      border-radius: 32px;
-      color: #91a3b3;
-      font-size: 12px;
-      background: transparent;
-      padding: 11px 30px 10px 30px;
-      margin-bottom: 10px;
-      border: solid #91a3b3 2px;
-      text-decoration: none;
-      text-transform: uppercase;
-      max-width: 126px;
-      transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+		p {
+			text-align: center;
+			padding: 0;
+			margin: 0;
+			color: #707b85;
+		}
 
-      &:hover {
-        @include btn-shadow;
-      }
-
-      span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-
-        &:after {
-          content: '»';
-          position: absolute;
-          opacity: 0;
-          top: -15%;
-          right: 0;
-          transition: 0.5s;
-        }
-      }
-
-      &:hover span {
-        padding-right: 15px;
-      }
-
-      &:hover span:after {
-        opacity: 1;
-        right: 0;
-      }
-    }
-  }
-  
+		.btn-readmore {
+			@extend .btn-silesia;
+			margin-top: 15px;
+		}
+	}
+	
 }
-/* /Services */

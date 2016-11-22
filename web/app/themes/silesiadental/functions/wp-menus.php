@@ -17,8 +17,9 @@ class wp_menus {
 	function register_menus() {
 	  register_nav_menus(
 	  	array(
-	  		'primary-menu' => __( 'Primary Menu' )
-	  		// 'secondary-menu' => __( 'Secondary Menu' ),
+	  		'primary-menu' => __( 'Primary Menu' ),
+	  		'footer-1' => __( 'Footer 1' ),
+	  		'footer-2' => __( 'Footer 2' )
 	  		// 'social-menu' => __( 'Social Menu' )
 	  	)
 	  );

@@ -24,6 +24,9 @@ Copyright 2016 Techtonix
 @import "helpers/functions";
 @import "helpers/helpers";
 
+// Patterns
+@import "patterns/buttons";
+
 // Theme
 // @import "themes/dark";
 
@@ -51,6 +54,7 @@ Copyright 2016 Techtonix
 @import "components/highlights";
 @import "components/wp-ninjaforms";
 // @import "components/media-query";
+
 
 // Shame
 @import "shame";

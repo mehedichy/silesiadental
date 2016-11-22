@@ -1,0 +1,35 @@
+//
+// Button patterns
+// -----------------------------------------------------------------------------
+//
+
+	// Common design pattern
+	//
+	.btn-silesia {
+		background: transparent none repeat scroll 0 0;
+		border: 3px solid $button-border-color;
+		border-radius: 32px;
+
+		display: inline-block;
+		outline: none;
+		padding: 14px 30px 13px;
+		margin: 0;
+		cursor: pointer;
+
+		@include secondary-font();
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 1;
+		color: $button-text-color;
+		text-transform: uppercase;
+		vertical-align: middle;
+		white-space: nowrap;
+
+		transition: all 0.2s ease;
+
+		&:hover {
+			border-color: #00aeef;
+			background: #00aeef;
+			color: #FFF;
+		}
+	}

@@ -4,133 +4,24 @@
 // 
 
 section.appointment {
-  background: rgb(235,235,235);
-  padding-bottom: 60px;
-  
-  h1 {
-    font-size: 36px;
-    color: #372F2B;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 35px;
-    margin: 0;
+	background: rgb(235,235,235);
+	padding: 60px 0;
+	
+	h1 {
+		@include secondary-font();
+		font-size: 36px;
+		color: #372F2B;
+		text-align: center;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin: 0 0 30px;
 
-    span {
-      font-weight: bold;
-    }
-  }
+		span {
+			font-weight: bold;
+
+			@include media("<sm") {
+				display: block;
+			}
+		}
+	}
 }
-form {
-  max-width: 600px;
-  margin: 0 auto;
-
-  .calender-icon {
-    float: right;
-    margin-right: 19px;
-    margin-top: -50px;
-    position: relative;
-    z-index: 2;
-    color: #333;
-}
-.chevron-icon {
-    float: right;
-    margin-right: 19px;
-    margin-top: -30px;
-    position: relative;
-    z-index: 2;
-    color: #666;
-}
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  text-indent: 1px;
-  text-overflow: '';
-  padding-left: 21px;
-}
-
-  ::-webkit-input-placeholder {
-     font-size: 14px;
-     color: rgb(126,126,126);
-  }
-
-  :-moz-placeholder { /* Firefox 18- */
-     font-size: 14px;
-     color: rgb(126,126,126);  
-  }
-
-  ::-moz-placeholder {  /* Firefox 19+ */
-     font-size: 14px;  
-     color: rgb(126,126,126);
-  }
-
-  :-ms-input-placeholder {  
-     font-size: 14px; 
-     color: rgb(126,126,126);
-  }
-}
-
-input {
-  font-size: 22px;
-  display: block;
-  width: 100%;
-  max-width: 270px;
-  height: 46px;
-  margin-bottom: 20px;
-  padding: 0;
-  background: rgb(255,255,255);
-  background-image: none;
-  border: 1px solid #D7DBDC;
-  color: #7e7e7e;
-  border-radius: 0 !important;
-  transition: border-color .25s ease, box-shadow .25s ease;
-  &:focus {
-    border: 1px solid gray;
-  }
-  &:nth-child(even){
-    margin-left: 30px;
-  }
-  .form-control {
-    border-radius: 0;
-    -webkit-appearance: none;
-  }
-}
-
-.select-box {
-  width: 100%;
-  max-width: 270px;
-  height: 45px;
-  outline: none;
-  border: 1px solid #D7DBDC;
-  padding: 5px;
-  font-size: 16px;
-  line-height: 1;
-  font-size: 14px;
-  color: rgb(126,126,126);
-
-  [selected] {
-    padding-left: 21px;
-  }
-}
-
-  .button {
-    font-family: adam-pro;
-    border: 0;
-    //max-width: 270px;
-    outline: none;
-    border: 3px solid #91a3b3;
-    border-radius: 32px;
-    padding: 7px 115px;
-    line-height: 26.35px;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: normal;
-    background: transparent;
-    color: #91a3b3;
-    -webkit-appearance: none;
-
-    &:hover {
-      background: #fff;
-      transition: all .5s ease-in-out;
-    }
-  }
-
