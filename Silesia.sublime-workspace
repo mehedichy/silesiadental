@@ -4,24 +4,32 @@
 		"selected_items":
 		[
 			[
-				"pa",
-				"padding-right: "
+				"marg",
+				"margin-right: "
 			],
 			[
 				"mar",
-				"margin-top: "
+				"margin-left: "
+			],
+			[
+				"padd",
+				"padding-right: "
+			],
+			[
+				"pa",
+				"padding: "
 			],
 			[
 				"ma",
-				"margin-top: "
+				"margin: "
+			],
+			[
+				"border-",
+				"border-color: "
 			],
 			[
 				"max-",
 				"max-width: "
-			],
-			[
-				"marg",
-				"margin-top: "
 			],
 			[
 				"margin",
@@ -42,10 +50,6 @@
 			[
 				"pad",
 				"padding: "
-			],
-			[
-				"padd",
-				"padding-right: "
 			],
 			[
 				"back",
@@ -100,46 +104,28 @@
 	"buffers":
 	[
 		{
-			"file": "web/app/themes/silesiadental/front-page.php",
-			"settings":
-			{
-				"buffer_size": 6264,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "web/app/themes/silesiadental/template-parts/appointment.php",
-			"settings":
-			{
-				"buffer_size": 490,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "web/app/themes/silesiadental/footer.php",
 			"settings":
 			{
-				"buffer_size": 3051,
+				"buffer_size": 2210,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "web/app/themes/silesiadental/functions/wp-widgets.php",
+			"file": "web/app/themes/silesiadental/assets/src/scss/layout/_footer.scss",
 			"settings":
 			{
-				"buffer_size": 661,
+				"buffer_size": 1002,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "web/app/themes/silesiadental/assets/src/scss/components/_appointment.scss",
+			"file": "web/app/themes/silesiadental/header.php",
 			"settings":
 			{
-				"buffer_size": 2371,
+				"buffer_size": 2361,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -196,6 +182,7 @@
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/base",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components",
@@ -206,17 +193,30 @@
 	],
 	"file_history":
 	[
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/layout/_header.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/functions/wp-menus.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_services.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/template-parts/services.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/template-parts/maps-street-view.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_highlights.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/front-page.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/sidebar.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_slider.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/footer.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/base/_default.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_wp-ninjaforms.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/patterns/_buttons.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/helpers/_variables.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/style.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_appointment.scss",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/template-parts/appointment.php",
+		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/functions/wp-widgets.php",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/functions/wp-clean.php",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_infobar.scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/template-parts/info-bar.php",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/footer.php",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/header.php",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/helpers/_mixins.scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/js/app.js",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_slider.scss",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/helpers/_variables.scss",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/layout/_header.scss",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/base/_default.scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/wp/wp-content/themes/twentyfifteen/js/functions.js",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/base/_typography.scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesia-frontend/index.html",
@@ -229,19 +229,16 @@
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/config/environments/development.php",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/functions/wp-theme.php",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/functions/script-enqueue.php",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/style.scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_social.scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/_blank.scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_media-query.scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/layout/_about.scss",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/components/_wp-ninjaforms.scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/bower.json",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/fonts/adam.cg.pro-webfont.svg",
 		"/C/Users/sazad/Downloads/webfontkit-20161119-023055/stylesheet.css",
 		"/C/Users/sazad/Downloads/webfontkit-20161119-023055/specimen_files/specimen_stylesheet.css",
 		"/C/Users/sazad/Downloads/webfontkit-20161119-023003/stylesheet.css",
 		"/C/Users/sazad/Downloads/webfontkit-20161119-023003/adam.cg_pro-demo.html",
-		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/front-page.php",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/layout/_body.scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/assets/src/scss/layout/_main.scss",
 		"/C/Users/sazad/Documents/MEGA/html/silesiadental.com/web/app/themes/silesiadental/services-page.php",
@@ -323,17 +320,7 @@
 		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/assets/src/scss/layout/_footer.scss",
 		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/Gruntfile.js",
 		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/.jshintrc",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/sidebar-footer.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/README",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/sidebar-footer.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/sidebar.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/Divi/footer.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-config.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/php.ini",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/page-new.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/.htaccess",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/phpinfo.php",
-		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/functions/divi-module-scroll-down.php"
+		"/C/Users/sazad/Documents/MEGA/html/snfgroup.com/wp-content/themes/SNF/sidebar-footer.php"
 	],
 	"find":
 	{
@@ -344,6 +331,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\sazad\\Documents\\MEGA\\html\\silesiadental.com\\web\\app\\themes\\silesiadental\\assets\\src\\scss",
 			"C:\\Users\\sazad\\Documents\\MEGA\\html\\silesiadental.com\\web\\wp\\wp-content\\themes",
 			"C:\\Users\\sazad\\Documents\\MEGA\\html\\silesiadental.com\\web\\app\\themes",
 			"C:\\Users\\sazad\\Documents\\MEGA\\html\\silesiadental.com",
@@ -366,6 +354,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"highlight",
+			"hospital",
+			"light",
+			"dist/",
+			"cursor",
 			"screenReaderText",
 			"menu-item-has-children",
 			"menu-item-has-children ",
@@ -430,6 +423,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"nav-link",
 			"http://snfgroup.techtonix.com",
 			"",
@@ -447,113 +441,84 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "web/app/themes/silesiadental/front-page.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6264,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3287,
-								3287
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1403.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "web/app/themes/silesiadental/template-parts/appointment.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 490,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								457,
-								457
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "web/app/themes/silesiadental/footer.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3051,
+						"buffer_size": 2210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3017,
-								3017
+								1796,
+								1796
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1311.0,
+						"translation.y": 1035.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "web/app/themes/silesiadental/functions/wp-widgets.php",
+					"buffer": 1,
+					"file": "web/app/themes/silesiadental/assets/src/scss/layout/_footer.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 661,
+						"buffer_size": 1002,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								427,
-								427
+								667,
+								667
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 759.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "web/app/themes/silesiadental/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1731,
+								1731
 							]
 						],
 						"settings":
@@ -562,40 +527,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 138.0,
+						"translation.y": 1380.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "web/app/themes/silesiadental/assets/src/scss/components/_appointment.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2371,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								192,
-								192
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -640,7 +575,7 @@
 	"project": "Silesia.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":

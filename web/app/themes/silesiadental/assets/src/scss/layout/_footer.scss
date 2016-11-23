@@ -4,7 +4,7 @@
 //
 section.pre-footer {
 	background: #9fb1bf;
-	padding: 40px 0;
+	padding: 25px 0;
 	text-transform: uppercase;
 	color: #FFF;
 
@@ -26,7 +26,7 @@ section.pre-footer {
 	ul.footer-menu {
 		list-style-type: none;
 		padding: 0;
-		margin: 0;
+		margin: 15px 0;
 
 		li {
 			margin: 0;
@@ -47,6 +47,37 @@ section.pre-footer {
 				display: block;
 			}
 		}
+	}
+
+	.footer__meta {
+		text-align: center;
+		margin: 15px 0;
+
+		@include media("<md") {
+			margin-top: 40px;
+		}
+
+		img {
+			margin: 0 auto;
+			padding: 0 30px 15px;
+			border-bottom: 1px solid #00aeef;
+		}
+
+		p.english {
+			@include heading-font();
+			font-size: 14px;
+			line-height: 1.45;
+			margin: 10px 0 5px;
+		}
+		p.arabic {
+			font-size: 20px;
+			margin: 5px 0;
+		}
+
+		ul.social-icon {
+			margin-top: 20px;
+		}
+
 	}
 
 }

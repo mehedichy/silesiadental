@@ -1,0 +1,45 @@
+//
+// Social icons
+// -----------------------------------------------------------------------------
+//
+
+	ul.social-icon {
+		margin: 0 auto;
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		margin: 0;
+
+		li {
+			margin-right: 5px;
+			padding: 0;
+			display: inline-block;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			i {
+				display: inline-block;
+				color: #FFF;
+				font-size: 12px;
+				line-height: 1;
+				height: 36px;
+				width: 40px;
+				padding: 12px 14px;
+				text-align: center;
+			}
+
+			&.facebook i {
+				background: #507CBE;
+			}
+
+			&.twitter i {
+				background: #63CDF1;
+			}
+
+			&.gplus i {
+				background: #4D4F54;
+			}
+		}
+	}

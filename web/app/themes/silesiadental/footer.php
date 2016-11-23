@@ -44,21 +44,14 @@
 				</div>
 
 				<div class="col-md-4">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/logo-footer.png">
+					<div class="footer__meta">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/silesia-dental-clinic-white.png" class="img-responsive">
 
-					<p>Silesia Dental Clinic</p>
-					<!--<p>سيليسيا عيادة الأسنان</p> -->
-					<ul class="footer-social-icon">
-						<li>
-							<a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/fb.png"></a>
-						</li>
-						<li>
-							<a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/twitter.png"></a>
-						</li>
-						<li>
-							<a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dist/img/g+.png"></a>
-						</li>
-					</ul>
+						<p class="english">Silesia Dental Clinic</p>
+						<p class="arabic">سيليسيا عيادة الأسنان</p> 
+						
+						<?php get_template_part('template-parts/social-icons'); ?>
+					</div>
 				</div>
 			</div>
 		</div>
