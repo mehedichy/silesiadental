@@ -9,85 +9,39 @@
 
 get_header(); ?>
 
-	<section id="header-img">
+	<section class="page-hero">
 		<?php 
-			if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+			if ( has_post_thumbnail() ) {
 				the_post_thumbnail();
 			} 
 		?>
+
+		<div class="image-overlay">&nbsp;</div>
+
+		<div class="page-hero-body alt <?php the_field('alignment'); ?>">
+			<h2><?php the_field('cover-heading'); ?></h2>
+
+			<h4><?php the_field('cover-subheading'); ?></h4>
+
+			<?php the_field('cover-paragraph'); ?>
+		</div>
 	</section>
 
-	<!-- Info Bar -->
-    <div class="info-bar service-infobar">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="media">
-                        <div class="media-left">
-                            <i aria-hidden="true" class="fa fa-clock-o fa-3x"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Openning Hours</h4>
-                            <p>Sat-Wed, 8am-8pm<br>
-                            Thu, 8am-6pm<br>
-                            Closed on Fridays</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="media">
-                        <div class="media-left">
-                            <i aria-hidden="true" class="fa fa-map-marker fa-3x"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Location</h4>
-                            <address>
-	                            Diera, Port Saeed, Centurion Star bldg.,
-	                            <br />
-	                            Metro Exit 2, Bloack A, Office 302
-	                            <br />
-	                            P.O. BOX: 40466,Dubai, UAE
-	                            <br />
-	                            <a href="https://goo.gl/za59A4">Find Us</a></p>
-                            </address>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="media">
-                        <div class="media-left">
-                            <i aria-hidden="true" class="fa fa-mobile fa-3x"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Call us today!</h4>
-                            <p>Tel.: +971 4 228 4770<br>
-                            Mob.: -971 50 412 7876</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- /Info Bar -->
+	<?php get_template_part('template-parts/info-bar'); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main service-page" role="main">
+	<main class="page-content" role="main">
+		<?php
+		while ( have_posts() ) : the_post();
 
-			<?php
-			while ( have_posts() ) : the_post();
+			get_template_part( 'template-parts/content', 'page' );
 
-				get_template_part( 'template-parts/content', 'page' );
+		endwhile; // End of the loop.
+		?>
+	</main>
 
-				// If comments are open or we have at least one comment, load up the comment template.
-				// if ( comments_open() || get_comments_number() ) :
-				// 	comments_template();
-				// endif;
+	<?php get_template_part('template-parts/appointment'); ?>
 
-			endwhile; // End of the loop.
-			?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
+	<?php /*
 	<section id="service-gallery">
 		<div class="container">
 			<div class="row">
@@ -118,6 +72,7 @@ get_header(); ?>
 		</div>
 	</section>
 
+	
 	<!-- FAQs -->
 	 <section id="faq">
 	 	<div class="container">
@@ -216,20 +171,7 @@ get_header(); ?>
 	    <!-- end of container -->
 	 </section>
 	<!-- #FAQs -->
-
-	<!-- Appointment -->
-    <div class="appointment">
-        <div class="container">
-            <div class="row">
-            	<div class="col-md-12">
-            		<h1>Book an <span>appointment</span></h1>
-            		<div class="form-div">
-            			<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); } ?>
-            		</div>
-            	</div>
-            </div>
-        </div>
-    </div><!-- /Appointment -->
+	*/ ?>
 
 <?php
 get_sidebar();
