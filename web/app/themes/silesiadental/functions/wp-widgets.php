@@ -32,6 +32,24 @@ class wp_widgets {
 			'after_title'   => '',
 		));
 
+		register_sidebar(array(
+			'name'          => 'Google Maps',
+			'id'            => 'maps',
+			'before_widget' => '',
+			'after_widget'  => '',
+			'before_title'  => '',
+			'after_title'   => '',
+		));
+
+		register_sidebar(array(
+			'name'          => 'Contact Us',
+			'id'            => 'contact',
+			'before_widget' => '',
+			'after_widget'  => '',
+			'before_title'  => '',
+			'after_title'   => '',
+		));
+
 	}
 
 }

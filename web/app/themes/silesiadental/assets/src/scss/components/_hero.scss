@@ -154,23 +154,33 @@ section.page-hero {
 		@include secondary-font();
 		color: #444;
 		z-index: 4;
-		top: 20%;
-		left: 10%;
-		right: 10%;
-		text-align: left;
 		@include make-col-span(10);
 
-		@include media(">sm") {
-			@include make-col-span(8);
-			left: 18%;
-			right: 18%;
-		}
-
-		@include media(">lg") {
-			@include make-col-span(6);
-			margin: 0 0 0 30px;
+		&.left {
+			top: 20%;
 			left: 10%;
 			right: 10%;
+			text-align: left;
+
+			@include media(">sm") {
+				@include make-col-span(8);
+				left: 18%;
+				right: 18%;
+			}
+
+			@include media(">lg") {
+				@include make-col-span(6);
+				margin: 0 0 0 30px;
+				left: 10%;
+				right: 10%;
+			}
+		}
+
+		&.center {
+			display: block;
+			text-align: center;
+			@include make-col-offset(1);
+			margin-top: 120px;
 		}
 
 		&.alt {

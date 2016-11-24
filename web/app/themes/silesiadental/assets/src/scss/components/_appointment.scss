@@ -3,25 +3,183 @@
 // template-parts/appointment.php 
 // 
 
-section.appointment {
-	background: rgb(235,235,235);
-	padding: 60px 0;
-	
-	h1 {
-		@include secondary-font();
-		font-size: 36px;
-		color: #372F2B;
-		text-align: center;
-		padding-top: 0;
-		padding-bottom: 0;
-		margin: 0 0 30px;
+	%appointment-heading {
+		h1 {
+			@include secondary-font();
+			font-size: 36px;
+			color: #372F2B;
+			text-align: center;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin: 0 0 30px;
 
-		span {
-			font-weight: bold;
+			span {
+				font-weight: bold;
 
-			@include media("<sm") {
-				display: block;
+				@include media("<sm") {
+					display: block;
+				}
 			}
 		}
 	}
-}
+
+	section.appointment {
+		background: rgb(235,235,235);
+		padding: 60px 0;
+		
+		@extend %appointment-heading;
+	}
+
+
+// 
+// Info bar
+// template-parts/info-bar.php 
+// 
+
+	.info-bar-wrap {
+
+		.media {
+			@include make-col();
+			@include make-col-span(12);
+			margin-top: 0;
+			font-size: 14px;
+			line-height: 1.4;
+			color: #FFF;
+			text-align: left;
+
+			@include media("<md") {
+				margin-top: 30px;
+
+				&:first-child {
+					margin-top: 0;
+				}
+			}
+
+			@include media(">md") {
+				@include make-col-span(4);
+			}
+
+			.media-left {
+				i.fa {
+					width: 40px;
+					display: inline-block;
+				}
+			}
+
+			.media-body {
+
+				.media-heading {
+					font-weight: bold;
+					letter-spacing: 1px;
+					line-height: normal;
+				}
+
+				p {
+					font-weight: normal;
+				}
+
+				a {
+					color: #fff;
+					text-decoration: underline;
+				}
+
+				address {
+					margin-bottom: 0;
+				}
+
+			}
+		}
+	}
+
+	section.info-bar {
+		// background: rgb(145,163,179);
+		background: #91a3b3;
+		padding: 24px 40px;
+		text-align: center;
+
+		// @extend .info-bar-wrap;
+	}
+
+
+// 
+// Appointment form + info bar
+// template-parts/appointment-info-bar.php
+// 
+
+	section.appointment-info-bar {
+		background: rgb(235,235,235);
+		padding: 60px 0;
+
+		// .container {
+		// 	padding-left: 5rem;
+		// 	padding-right: 5rem;
+		// }
+
+		// .row {
+		// 	margin-left: -5rem;
+		// 	margin-right: -5rem;
+		// }
+
+		// div[class^="col-"] {
+		// 	padding-left: 5rem;
+		// 	padding-right: 5rem;
+		// }
+
+		.appointment-div {
+
+			@include media("<md") {
+				margin-bottom: 40px;
+			}
+
+			@extend %appointment-heading;
+
+			h1 {
+				text-align: left;
+			}
+
+			.nf-form-cont .five-sixths, 
+			.nf-form-cont .four-sixths, 
+			.nf-form-cont .one-fourth, 
+			.nf-form-cont .one-half, 
+			.nf-form-cont .one-sixth, 
+			.nf-form-cont .one-third, 
+			.nf-form-cont .three-fourths, 
+			.nf-form-cont .three-sixths, 
+			.nf-form-cont .two-fourths, 
+			.nf-form-cont .two-sixths, 
+			.nf-form-cont .two-thirds,
+			.nf-field-container.one-half, 
+			.nf-field-container.three-sixths, 
+			.nf-field-container.two-fourths {
+				float: none !important;
+				width: 100% !important;
+
+				&.second {
+					margin-left: 0 !important;
+				}
+			}
+
+			.submit-wrap input[type="button"] {
+				max-width: 75%;
+			}
+		}
+
+		.info-bar-wrap {
+
+			.media {
+				float: none;
+				width: 100%;
+				margin-bottom: 20px;
+				color: $body-color;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+
+				a {
+					color: $body-color;
+				}
+			}
+		}
+
+	}

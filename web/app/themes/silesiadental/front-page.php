@@ -21,7 +21,7 @@ get_header(); ?>
 						<img alt="Tooth Repair - Root Canal, Fillings at Silesia Dental" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/slider_1.jpg" />
 						<!-- Static Header -->
 						<div class="image-overlay">&nbsp;</div>
-						<div class="page-hero-body alt">
+						<div class="page-hero-body left alt">
 							<h2>Tooth Repair</h2>
 							<h4>Root Canal, Tooth Fillings, Inlays and Onlays</h4>
 							<p>Teeth cavitation is one of the most prevalent problems in the world. We take care of cavitation in all stages.</p>
@@ -33,7 +33,7 @@ get_header(); ?>
 						<img alt="Beautifying smile - Cosmetic Dentistry at Silesia Dental" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/slider_2.jpg" /> 
 						<!-- Static Header -->
 						<div class="image-overlay">&nbsp;</div>
-						<div class="page-hero-body alt">
+						<div class="page-hero-body left alt">
 							<h2>Beautifying Smiles</h2>
 							<h4>Zoom Whitening, Veneers and Smile makeovers</h4>
 							<p>Zoom teeth whitening provides 6 shades of whitening in 1 hour. Our cosmetic dentistry practice is world class.</p>
@@ -44,7 +44,7 @@ get_header(); ?>
 						<img alt="Removing teeth, General Extractions and Wisdom teeth removal at Silesia Dental " src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/slider_3.jpg" />
 						<!-- Static Header -->
 						<div class="image-overlay">&nbsp;</div>
-						<div class="page-hero-body alt">
+						<div class="page-hero-body left alt">
 							<h2>Fast <span>&amp;</span> Painless</h2>
 							<h4>Removing Wisdom Teeth and General Extractions</h4>
 							<p>At Silesia dental clinic, you are in expert hands who extract teeth with utmost care and almost painlessly.</p>
