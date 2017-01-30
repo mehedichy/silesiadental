@@ -18,7 +18,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
@@ -26,17 +26,11 @@
 
 	<div class="container body-container">
 		<header class="page-header">
-			<div class="banner">
-				<div class="container">
 					<div class="branding">
 						<a href="/">
 							<img class="img-responsive logo-img no-lightense" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/silesia-dental-clinic.png">
 						</a>
 					</div>
-
-					<?php get_template_part('template-parts/social-icons'); ?>
-				</div>
-			</div>
 
 			<div class="menu-container">
 				<button class="navbar-toggler hidden-sm-up c-hamburger" type="button" data-toggle="collapse" data-target=".menu-scaffold">
