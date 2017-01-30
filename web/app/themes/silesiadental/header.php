@@ -33,7 +33,7 @@
 					</div>
 
 			<div class="menu-container">
-				<button class="navbar-toggler hidden-sm-up c-hamburger" type="button" data-toggle="collapse" data-target=".menu-scaffold">
+				<button class="navbar-toggler hidden-md-up c-hamburger" type="button" data-toggle="collapse" data-target=".menu-scaffold">
 					<i class="fa fa-bars"></i>
 					<span>Navigation</span>
 				</button>
