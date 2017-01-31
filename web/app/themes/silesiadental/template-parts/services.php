@@ -22,8 +22,8 @@
 				</div>
 				<div class="col-xs-12 col-sm-6 col-lg-3">
 					<div class="services-box">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ico_implant.png" />
-						<h2>Dental <span>implants</span></h2>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ico_braces.png" />
+						<h2>Dental <span>braces</span></h2>
 						<p>We are known to be the best dental clinic in Dubai for dental implants with the highest success rate.</p>
 						<a href="http://dev.silesiadental.com/replacing-teeth/" class="btn btn-lg btn-readmore"><span>Read more</span></a>
 					</div>

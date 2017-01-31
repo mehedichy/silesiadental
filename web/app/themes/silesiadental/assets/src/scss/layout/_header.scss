@@ -93,10 +93,9 @@ header.page-header {
 
 			@include media(">md") {
 				display: inline-block;
-				//@include make-col-span(2);
+				float: left;
 
 				&:hover > ul.sub-menu {
-					//display: block;
 					visibility: visible;
 					opacity: 1;	
 					width: 100%;
@@ -144,18 +143,7 @@ header.page-header {
 				&.menu-item-has-children.toggle-on > a:after {
 					content: "\f068";
 				}
-
 			}
-
-			// & > a {
-			// 	transition: background 0.3s ease;
-			// }
-				
-			// &:nth-child(2) {
-			// 	& > ul {
-			// 		background: #179cd3;
-			// 	}
-			// }
 
 			&:hover > a,
 			&:focus > a {
@@ -173,16 +161,24 @@ header.page-header {
 				display: block;
 				color: #2a2a2a;
 				padding: 39px 20px 40px;
+				transition: background 0.2s ease;
 
 				@include media("<md") {
-					padding: 3px;
-					// line-height: 4;
 					padding: 15px;
-					height: auto;
+					//height: auto;
 					z-index: 1;
-				}
+				}				
+			}
 
-				
+			@include media(">md") {
+
+				&.menu-item-has-children > a:after {
+					content: "\f107";
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: 700;
+					margin-left: 8px;
+				}
 			}
 		}
 	}
@@ -197,15 +193,14 @@ li.menu-item-depth-0 > ul.sub-menu {
 	background: #179cd3;
 	padding: 10px 10px 10px;
 
-	@include media("<sm") {
-		//padding: 15px 15px 20px 15px;
+	@include media("<md") {
 
 		&.show {
 			display: block;
 		}
 	}
 
-	@include media(">sm") {
+	@include media(">md") {
 		visibility: hidden;
 		opacity: 0;
 		transition: visibility 0s, opacity 0.2s linear;
@@ -222,14 +217,8 @@ li.menu-item-depth-0 > ul.sub-menu {
 		display: block;
 		padding-bottom: 10px;
 
-		@include media(">sm") {
-			@include make-col();
-			@include make-col-span(6);
-			padding-left: 15px !important;
-			padding-right: 15px !important;
-		}
-
 		@include media(">md") {
+			@include make-col();
 			@include make-col-span(4);
 		}
 	
@@ -243,18 +232,15 @@ li.menu-item-depth-0 > ul.sub-menu {
 
 			&:before {
 				content: "|";	//"\f00c"; // &#xf00c;
-				font-family: FontAwesome;
-				//font-style: normal;
 				font-weight: bolder;
 				font-size: 16px;
-				text-decoration: inherit;
 				position: absolute;
-				top: 12px;
+				top: 10px;
 				left: 10px;
 				text-decoration: none !important;
 			}
 
-			@include media(">sm") {
+			@include media(">md") {
 				padding: 10px 0 0 30px;
 				text-align: left;
 				display: inline-block;
@@ -264,12 +250,11 @@ li.menu-item-depth-0 > ul.sub-menu {
 				text-decoration: underline;
 				background-color: transparent;
 
-				@include media("<sm") {
+				@include media("<md") {
 					background-color: rgba(0, 0, 0, 0.2);
 					text-decoration: none;
 				}
 			}
-
 
 		}
 	}
@@ -294,13 +279,12 @@ li.menu-item-depth-1 > ul.sub-menu {
 			line-height: 1;
 			padding-top: 8px;
 			padding-bottom: 8px;
-			display: inline-block;
 			background: none;
 			color: #FFF;
 			display: block;
 
-			@include media(">sm") {
-				display: inline-block;
+			@include media(">md") {
+				display: block;
 			}
 
 			&:hover {
